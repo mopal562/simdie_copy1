@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="189" height="478.484" viewBox="0 0 189 478.484">
+  <g id="Group_38" data-name="Group 38" transform="translate(-599 -1124.516)">
+    <g id="Rectangle_44" data-name="Rectangle 44" transform="translate(599.25 1207.5)" fill="#a7a8a9" stroke="#0e0e0e" stroke-width="3">
+      <rect width="177" height="385" stroke="none"/>
+      <rect x="1.5" y="1.5" width="174" height="382" fill="none"/>
+    </g>
+    <g id="Rectangle_42" data-name="Rectangle 42" transform="translate(610.5 1218)" fill="#a7a8a9" stroke="#0e0e0e" stroke-width="3">
+      <rect width="177" height="385" stroke="none"/>
+      <rect x="1.5" y="1.5" width="174" height="382" fill="none"/>
+    </g>
+    <g id="Rectangle_43" data-name="Rectangle 43" transform="translate(654.563 1259.375)" fill="#a7a8a9" stroke="#0e0e0e" stroke-width="3">
+      <rect width="88.875" height="302.25" stroke="none"/>
+      <rect x="1.5" y="1.5" width="85.875" height="299.25" fill="none"/>
+    </g>
+    <g id="Path_6" data-name="Path 6" transform="translate(599 1096)" fill="#a7a8a9">
+      <path d="M 173.8281555175781 108.5 L 2.745967626571655 108.5 L 53.14799880981445 30.01614379882812 L 109.4064483642578 30.01614379882812 L 173.8281555175781 108.5 Z" stroke="none"/>
+      <path d="M 53.96737670898438 31.51614379882812 L 5.491958618164062 107 L 170.6563262939453 107 L 108.6970901489258 31.51614379882812 L 53.96737670898438 31.51614379882812 M 52.32859802246094 28.51614379882812 L 110.1157989501953 28.51614379882812 L 177 110 L 0 110 L 52.32859802246094 28.51614379882812 Z" stroke="none" fill="#0e0e0e"/>
+    </g>
+    <g id="Path_5" data-name="Path 5" transform="translate(611 1104)" fill="#a7a8a9">
+      <path d="M 173.8281555175781 108.5 L 2.745967626571655 108.5 L 53.14799880981445 30.01614379882812 L 109.4064483642578 30.01614379882812 L 173.8281555175781 108.5 Z" stroke="none"/>
+      <path d="M 53.96737670898438 31.51614379882812 L 5.491958618164062 107 L 170.6563262939453 107 L 108.6970901489258 31.51614379882812 L 53.96737670898438 31.51614379882812 M 52.32859802246094 28.51614379882812 L 110.1157989501953 28.51614379882812 L 177 110 L 0 110 L 52.32859802246094 28.51614379882812 Z" stroke="none" fill="#0e0e0e"/>
+    </g>
+  </g>
+</svg>

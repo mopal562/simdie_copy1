@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="189.121" height="545.112" viewBox="0 0 189.121 545.112">
+  <g id="Group_43" data-name="Group 43" transform="translate(-848.439 -848.439)">
+    <g id="Path_8" data-name="Path 8" transform="translate(850 850)" fill="#81807f">
+      <path d="M 175.5 531.0513305664062 L 106.8364181518555 531.0513305664062 L 59.92217254638672 473.9890747070312 L 1.5 401.17626953125 L 1.5 1.500034809112549 L 175.5 1.500034809112549 L 175.5 531.0513305664062 Z" stroke="none"/>
+      <path d="M 3 3 L 3 400.6488647460938 L 61.08658599853516 473.0433654785156 L 107.5450592041016 529.55126953125 L 174 529.55126953125 L 174 3 L 3 3 M 0 0 L 177 0 L 177 532.55126953125 L 106.1277847290039 532.55126953125 L 58.75771331787109 474.9345703125 L 0 401.70361328125 L 0 0 Z" stroke="none" fill="#0e0e0e"/>
+    </g>
+    <g id="Path_7" data-name="Path 7" transform="translate(859 861)" fill="#a7a8a9">
+      <path d="M 175.5 531.0513305664062 L 106.8364181518555 531.0513305664062 L 59.92217254638672 473.9890747070312 L 1.5 401.17626953125 L 1.5 1.500034809112549 L 175.5 1.500034809112549 L 175.5 531.0513305664062 Z" stroke="none"/>
+      <path d="M 3 3 L 3 400.6488647460938 L 61.08658599853516 473.0433654785156 L 107.5450592041016 529.55126953125 L 174 529.55126953125 L 174 3 L 3 3 M 0 0 L 177 0 L 177 532.55126953125 L 106.1277847290039 532.55126953125 L 58.75771331787109 474.9345703125 L 0 401.70361328125 L 0 0 Z" stroke="none" fill="#0e0e0e"/>
+    </g>
+    <line id="Line_25" data-name="Line 25" x2="12" y2="12" transform="translate(849.5 851.5)" fill="none" stroke="#0e0e0e" stroke-width="3"/>
+    <line id="Line_27" data-name="Line 27" x2="12" y2="12" transform="translate(1024.5 849.5)" fill="none" stroke="#0e0e0e" stroke-width="3"/>
+    <text id="HFO" transform="translate(909 940)" font-size="45" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">HFO</tspan></text>
+    <text id="Settl" transform="translate(906 1001)" font-size="42" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Settl</tspan></text>
+    <text id="Tank_1" data-name="Tank 1" transform="translate(886 1061)" font-size="42" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Tank 1</tspan></text>
+    <text id="_158_m" data-name="158 m" transform="translate(895 1183)" font-size="42" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">158 m</tspan></text>
+    <text id="_3" data-name="3" transform="translate(1006 1145)" font-size="33" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">3</tspan></text>
+    <g id="line-left" transform="translate(-17.25 -693)">
+      <line id="Line_30" data-name="Line 30" y2="30" transform="translate(902.5 1546.5)" fill="none" stroke="#e79c2c" stroke-width="3"/>
+      <line id="Line_32" data-name="Line 32" y2="300" transform="translate(886.5 1573.5)" fill="none" stroke="#e79c2c" stroke-width="3"/>
+      <line id="Line_31" data-name="Line 31" y2="17" transform="translate(901.5 1575.5) rotate(90)" fill="none" stroke="#e79c2c" stroke-width="3"/>
+    </g>
+    <g id="line-right" transform="translate(-17.25 -693)">
+      <line id="Line_35" data-name="Line 35" y2="40" transform="translate(1030.5 1548.5)" fill="none" stroke="#e79c2c" stroke-width="3"/>
+      <line id="Line_34" data-name="Line 34" y2="280" transform="translate(904.5 1590.5)" fill="none" stroke="#e79c2c" stroke-width="3"/>
+      <line id="Line_33" data-name="Line 33" y2="125" transform="translate(1032.5 1589.5) rotate(90)" fill="none" stroke="#e79c2c" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

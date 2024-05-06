@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="184" height="93" viewBox="0 0 184 93">
+  <g id="Group_29" data-name="Group 29" transform="translate(-96 -181)">
+    <g id="Rectangle_27" data-name="Rectangle 27" transform="translate(96 245)" fill="#a7a9a8" stroke="#0e0e0e" stroke-width="2">
+      <rect width="184" height="16" stroke="none"/>
+      <rect x="1" y="1" width="182" height="14" fill="none"/>
+    </g>
+    <g id="Rectangle_38" data-name="Rectangle 38" transform="translate(119 259)" fill="#a7a9a8" stroke="#0e0e0e" stroke-width="2">
+      <rect width="132" height="15" stroke="none"/>
+      <rect x="1" y="1" width="130" height="13" fill="none"/>
+    </g>
+    <g id="Rectangle_31" data-name="Rectangle 31" transform="translate(96 232)" fill="#a7a9a8" stroke="#0e0e0e" stroke-width="2">
+      <rect width="184" height="16" stroke="none"/>
+      <rect x="1" y="1" width="182" height="14" fill="none"/>
+    </g>
+    <g id="Rectangle_28" data-name="Rectangle 28" transform="translate(96 194)" fill="#a7a9a8" stroke="#0e0e0e" stroke-width="2">
+      <rect width="184" height="16" stroke="none"/>
+      <rect x="1" y="1" width="182" height="14" fill="none"/>
+    </g>
+    <g id="Rectangle_29" data-name="Rectangle 29" transform="translate(96 208)" fill="#a7a9a8" stroke="#0e0e0e" stroke-width="2">
+      <rect width="184" height="16" stroke="none"/>
+      <rect x="1" y="1" width="182" height="14" fill="none"/>
+    </g>
+    <g id="Rectangle_30" data-name="Rectangle 30" transform="translate(96 221)" fill="#a7a9a8" stroke="#0e0e0e" stroke-width="2">
+      <rect width="184" height="16" stroke="none"/>
+      <rect x="1" y="1" width="182" height="14" fill="none"/>
+    </g>
+    <g id="Path_4" data-name="Path 4" transform="translate(119 181)" fill="#a7a9a8">
+      <path d="M 131.0002136230469 13.99971675872803 L 0.9999977350234985 13.99971675872803 L 0.9999977350234985 1.000008106231689 L 131.0002136230469 1.000008106231689 L 131.0002136230469 13.99971675872803 Z" stroke="none"/>
+      <path d="M 2 2.000008583068848 L 2 12.99971771240234 L 130.0002136230469 12.99971771240234 L 130.0002136230469 2.000008583068848 L 2 2.000008583068848 M 0 8.58306884765625e-06 L 132.0002136230469 8.58306884765625e-06 L 132.0002136230469 14.99971675872803 L 0 14.99971675872803 L 0 8.58306884765625e-06 Z" stroke="none" fill="#0e0e0e"/>
+    </g>
+  </g>
+</svg>

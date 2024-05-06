@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="189.121" height="189.561" viewBox="0 0 189.121 189.561">
+  <g id="Group_30" data-name="Group 30" transform="translate(-848.439 -848.439)">
+    <g id="Rectangle_39" data-name="Rectangle 39" transform="translate(849 851)" fill="#81807f" stroke="#0e0e0e" stroke-width="3">
+      <rect width="177" height="177" stroke="none"/>
+      <rect x="1.5" y="1.5" width="174" height="174" fill="none"/>
+    </g>
+    <g id="Rectangle_40" data-name="Rectangle 40" transform="translate(859 861)" fill="#a7a8a9" stroke="#0e0e0e" stroke-width="3">
+      <rect width="177" height="177" stroke="none"/>
+      <rect x="1.5" y="1.5" width="174" height="174" fill="none"/>
+    </g>
+    <line id="Line_25" data-name="Line 25" x2="12" y2="12" transform="translate(849.5 851.5)" fill="none" stroke="#0e0e0e" stroke-width="3"/>
+    <line id="Line_26" data-name="Line 26" x2="12" y2="12" transform="translate(849.5 1024.5)" fill="none" stroke="#0e0e0e" stroke-width="3"/>
+    <line id="Line_27" data-name="Line 27" x2="12" y2="12" transform="translate(1024.5 849.5)" fill="none" stroke="#0e0e0e" stroke-width="3"/>
+    <text id="Exp." transform="translate(906 916)" font-size="45" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Exp.</tspan></text>
+    <text id="Tank" transform="translate(900 967)" font-size="45" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Tank</tspan></text>
+  </g>
+</svg>

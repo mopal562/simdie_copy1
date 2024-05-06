@@ -1,0 +1,17 @@
+<svg id="Group_33" data-name="Group 33" xmlns="http://www.w3.org/2000/svg" width="103" height="79.5" viewBox="0 0 103 79.5">
+  <g id="Group_6" data-name="Group 6">
+    <g id="Polygon_1" data-name="Polygon 1" transform="translate(53 0) rotate(90)" fill="#217029">
+      <path d="M 56.67691802978516 50.5 L 4.323085784912109 50.5 L 30.50000190734863 5.012243747711182 L 56.67691802978516 50.5 Z" stroke="none"/>
+      <path d="M 30.50000190734863 10.02449417114258 L 8.646171569824219 48 L 52.35383224487305 48 L 30.50000190734863 10.02449417114258 M 30.50000190734863 0 L 61 53 L 3.814697265625e-06 53 L 30.50000190734863 0 Z" stroke="none" fill="#2d91ff"/>
+    </g>
+    <g id="Polygon_2" data-name="Polygon 2" transform="translate(50 61) rotate(-90)" fill="#217029">
+      <path d="M 56.67691802978516 50.5 L 4.323085784912109 50.5 L 30.50000190734863 5.012243747711182 L 56.67691802978516 50.5 Z" stroke="none"/>
+      <path d="M 30.50000190734863 10.02449417114258 L 8.646171569824219 48 L 52.35383224487305 48 L 30.50000190734863 10.02449417114258 M 30.50000190734863 0 L 61 53 L 3.814697265625e-06 53 L 30.50000190734863 0 Z" stroke="none" fill="#2d91ff"/>
+    </g>
+    <path id="Path_1" data-name="Path 1" d="M0,9.72V33.695" transform="translate(50.5 19.78)" fill="#217029" stroke="#2d91ff" stroke-width="4"/>
+    <line id="Line_15" data-name="Line 15" x2="21" transform="translate(39.5 78.5)" fill="none" stroke="#2d91ff" stroke-width="2"/>
+    <line id="Line_16" data-name="Line 16" x2="33" transform="translate(33.5 53.5)" fill="none" stroke="#2d91ff" stroke-width="2"/>
+    <line id="Line_17" data-name="Line 17" y1="25" x2="6" transform="translate(60.5 53.5)" fill="none" stroke="#2d91ff" stroke-width="2"/>
+    <line id="Line_18" data-name="Line 18" x1="6" y1="25" transform="translate(33.5 53.5)" fill="none" stroke="#2d91ff" stroke-width="2"/>
+  </g>
+</svg>

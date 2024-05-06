@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="156.822" height="133.25" viewBox="0 0 156.822 133.25">
+  <g id="Group_34" data-name="Group 34" transform="translate(-413.178 -516)">
+    <g id="Group_11" data-name="Group 11">
+      <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(469 516)" fill="#217029" stroke="#0e0e0e" stroke-width="5">
+        <circle cx="50.5" cy="50.5" r="50.5" stroke="none"/>
+        <circle cx="50.5" cy="50.5" r="48" fill="none"/>
+      </g>
+      <g id="Polygon_3" data-name="Polygon 3" transform="translate(505 540)" fill="#0e0e0e">
+        <path d="M 29.13430023193359 25.5 L 0.8657025098800659 25.5 L 15.00000095367432 1.00054931640625 L 29.13430023193359 25.5 Z" stroke="none"/>
+        <path d="M 15.00000095367432 2.001115798950195 L 1.731414794921875 25 L 28.26858711242676 25 L 15.00000095367432 2.001115798950195 M 15.00000095367432 0 L 30 26 L 1.9073486328125e-06 26 L 15.00000095367432 0 Z" stroke="none" fill="#0e0e0e"/>
+      </g>
+      <g id="Rectangle_41" data-name="Rectangle 41" transform="translate(516 556)" fill="#0e0e0e" stroke="#0e0e0e" stroke-width="1">
+        <rect width="8" height="37" stroke="none"/>
+        <rect x="0.5" y="0.5" width="7" height="36" fill="none"/>
+      </g>
+    </g>
+    <g id="Ellipse_3" data-name="Ellipse 3" transform="matrix(0.799, -0.602, 0.602, 0.799, 413.178, 637.271)" fill="#c7c7c7" stroke="#0e0e0e" stroke-width="1">
+      <ellipse cx="7" cy="7.5" rx="7" ry="7.5" stroke="none"/>
+      <ellipse cx="7" cy="7.5" rx="6.5" ry="7" fill="none"/>
+    </g>
+    <g id="Group_12" data-name="Group 12">
+      <g id="Subtraction_1" data-name="Subtraction 1" transform="matrix(0.799, -0.602, 0.602, 0.799, 409.689, 639.615)" fill="#c4c4c4">
+        <path d="M 82.49980926513672 15.32740020751953 L 10.54940128326416 15.32740020751953 C 12.92586040496826 13.89041709899902 14.50040912628174 11.06651592254639 14.50040912628174 7.913700103759766 C 14.50040912628174 4.760876655578613 12.92587661743164 1.936983108520508 10.54941749572754 0.5000001192092896 L 82.49980926513672 0.5000001192092896 L 82.49980926513672 15.32740020751953 Z" stroke="none"/>
+        <path d="M 81.99980926513672 14.82740020751953 L 81.99980926513672 1.00000011920929 L 12.0470085144043 1.00000011920929 C 13.86267948150635 2.652416467666626 15.00040912628174 5.165769577026367 15.00040912628174 7.913700103759766 C 15.00040912628174 10.66162395477295 13.86266899108887 13.1749849319458 12.04699802398682 14.82740020751953 L 81.99980926513672 14.82740020751953 M 82.99980926513672 15.82740020751953 L 9.913509368896484 15.82740020751953 C 9.393468856811523 15.82740020751953 8.87333869934082 15.77661037445068 8.367568969726562 15.6764497756958 C 11.63144874572754 14.94573974609375 14.00040912628174 11.68185043334961 14.00040912628174 7.913700103759766 C 14.00040912628174 4.146369934082031 11.63145923614502 0.8816500902175903 8.367568969726562 0.1509401053190231 C 8.876729011535645 0.05012010410428047 9.396848678588867 1.037597670006107e-07 9.913509368896484 1.037597670006107e-07 L 82.99980926513672 1.037597670006107e-07 L 82.99980926513672 15.82740020751953 Z" stroke="none" fill="#0e0e0e"/>
+      </g>
+      <g id="Rectangle_2" data-name="Rectangle 2" transform="matrix(0.799, -0.602, 0.602, 0.799, 440.084, 595.207)" fill="#c4c4c4" stroke="#0e0e0e" stroke-width="1">
+        <rect width="12" height="46" stroke="none"/>
+        <rect x="0.5" y="0.5" width="11" height="45" fill="none"/>
+      </g>
+      <g id="Rectangle_3" data-name="Rectangle 3" transform="matrix(0.799, -0.602, 0.602, 0.799, 432.897, 600.623)" fill="#c4c4c4" stroke="#0e0e0e" stroke-width="1">
+        <rect width="11" height="46" stroke="none"/>
+        <rect x="0.5" y="0.5" width="10" height="45" fill="none"/>
+      </g>
+      <line id="Line_7" data-name="Line 7" x1="16" y2="12" transform="translate(461.5 593.5)" fill="none" stroke="#fff" stroke-width="1" opacity="0.697"/>
+      <line id="Line_8" data-name="Line 8" x1="22" y2="16" transform="translate(423.5 617.5)" fill="none" stroke="#fff" stroke-width="1" opacity="0.599"/>
+      <line id="Line_9" data-name="Line 9" x1="14" y2="10" transform="translate(437.5 594.5)" fill="none" stroke="#fff" stroke-width="1" opacity="0.682"/>
+    </g>
+  </g>
+</svg>

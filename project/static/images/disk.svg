@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="242.504" height="87" viewBox="0 0 242.504 87">
+  <g id="Group_75" data-name="Group 75" transform="translate(-406 -3545)">
+    <g id="Rectangle_53" data-name="Rectangle 53" transform="translate(406 3545)" fill="gray" stroke="#000" stroke-width="5">
+      <rect width="242" height="87" rx="7" stroke="none"/>
+      <rect x="2.5" y="2.5" width="237" height="82" rx="4.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_54" data-name="Rectangle 54" width="34" height="77" transform="translate(458 3550)" fill="#a5a5a5"/>
+    <rect id="Rectangle_55" data-name="Rectangle 55" width="17" height="77" transform="translate(428 3550)" fill="#a5a5a5"/>
+    <rect id="Rectangle_56" data-name="Rectangle 56" width="17" height="77" transform="translate(445 3550)" fill="#d5d5d5"/>
+    <line id="Line_43" data-name="Line 43" x2="242" y2="1" transform="translate(406.5 3568.5)" fill="none" stroke="#181818" stroke-width="2"/>
+    <line id="Line_44" data-name="Line 44" x2="242" y2="1" transform="translate(406.5 3576.5)" fill="none" stroke="#181818" stroke-width="2"/>
+    <line id="Line_45" data-name="Line 45" x2="242" y2="1" transform="translate(406.5 3583.5)" fill="none" stroke="#181818" stroke-width="2"/>
+    <line id="Line_46" data-name="Line 46" x2="242" y2="1" transform="translate(406.5 3591.5)" fill="none" stroke="#181818" stroke-width="2"/>
+    <line id="Line_47" data-name="Line 47" x2="242" y2="1" transform="translate(406.5 3598.5)" fill="none" stroke="#181818" stroke-width="2"/>
+  </g>
+</svg>
