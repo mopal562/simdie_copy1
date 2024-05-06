@@ -1,0 +1,279 @@
+{% load static %}
+
+{% include "includes/layouts/header.html" %}
+
+    <!-- CONTROLLER BOARD -->
+    <main id="pfe-controller-board">
+
+     {% include "includes/layouts/navbar.html" %}
+
+        <!--  CIRCUIT EAU DE MER -->
+        <div class="circuit-eau-de-mer">
+
+            <h4 class="heading has-sm-size mb-3 has-font-weight-500 type-1">
+                Sur le tableau
+            </h4>
+
+           <div class="rectangle type-1">
+
+            
+
+                <div class="image">
+                    <img src="{% static 'images/shape-39.svg' %}" alt="connector">
+                </div>
+
+                <button class="image button-icon is-36x36" data-type="connector-1" data-color="green">
+                    <img src="{% static 'images/unconnected-connector.svg' %}" alt="connector">
+                </button>
+
+                <i class="las la-long-arrow-alt-left"></i>
+
+                <div class="timer-value-output type-1">
+
+                    <div class="image">
+                        <img src="{% static 'images/shape-38.svg' %}" alt="timer">
+
+                        <span class="value-data-timer" id="timer-value-output-type-3" data-value="1.00">
+                            0.00
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <h4 class="heading has-normal-size has-green-color has-font-weight-500 mb-3">
+                    <span class="is-uppercase-text mr-3 is-inline-block">T</span>
+                    <span data-type-var="t" id="var-t-6" data-value="68.00">
+                        0.00
+                    </span>
+                    
+                </h4>
+
+                <div class="image type-2">
+                    <img src="{% static 'images/shape-39.svg' %}" alt="connector">
+                </div>
+
+                <div class="battery-container">
+
+                    <div class="image">
+
+                        <div class="battery-shape battery-left">
+                            <div class="charger-status has-green" data-charge="100"></div>
+                            <span></span>
+                        </div>
+
+                        <img src="{% static 'images/shape-17.svg' %}" alt="battery">
+
+                        <div class="battery-shape battery-right">
+                            <div class="charger-status has-green" data-charge="100"></div>
+                            <span></span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <h4 class="heading has-sm-size mb-3 has-font-weight-500 type-2">
+                    Refrigérateur<br> eau douce
+                </h4>
+
+
+                <div class="button-container">
+
+                    <a href="{% url 'page_principale' %}" class="primary-button">01</a>
+
+                    <button class="image button-icon is-36x36" data-type="connector-1" data-color="green">
+                        <img src="{% static 'images/unconnected-connector.svg' %}" alt="connector">
+                    </button>
+
+                </div>
+
+                <div class="flex item-1">
+
+                    <i class="las la-long-arrow-alt-up"></i>
+
+                    <h4 class="heading has-sm-size has-green-color has-font-weight-500 ">
+                        <span class="is-uppercase-text mr-3 is-inline-block">G</span>
+                        <span data-type-var="g" id="var-g-7" data-value="1.00">
+                            0.00
+                        </span>
+                    </h4>
+
+                </div>
+
+                <div class="timer-value-output type-2">
+
+                    <div class="image">
+                        <img src="{% static 'images/shape-38.svg' %}" alt="timer">
+
+                        <span class="value-data-timer" id="timer-value-output-type-4" data-value="1.00">
+                            0.00
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <i class="las la-long-arrow-alt-right type-2"></i>
+
+                <div class="flex item-3">
+
+                    <h4 class="heading has-sm-size has-green-color has-font-weight-500 ">
+                        <span class="is-uppercase-text mr-3 is-inline-block">P</span>
+                        <span data-type-var="p" id="var-p-8" data-value="3.00">
+                            0.00
+                        </span>
+                    </h4>
+
+                    <h4 class="heading has-sm-size has-green-color has-font-weight-500 ">
+                        <span class="is-uppercase-text mr-3 is-inline-block" >T</span>
+                        <span data-type-var="t" id="var-t-9" data-value="17.00">
+                            0.00
+                        </span>
+                    </h4>
+
+                </div>
+
+
+           </div>
+
+           <div class="rectangle type-2">
+
+                <div class="image is-26x26 type-1">
+                    <img src="{% static 'images/shape-40.svg' %}" alt="">
+                </div>
+
+                <button class="image button-icon is-36x36 flip-right type-2" data-type="connector-1" data-color="green">
+                    <img src="{% static 'images/unconnected-connector.svg' %}" alt="connector">
+                </button>
+
+                <h5 class="heading has-normal-size has-green-color has-font-weight-500 mb-3">
+                    <i class="las la-caret-up"></i>
+                    <span class="is-uppercase-text mr-3 is-inline-block">P</span>
+                    <span data-type-var="p" id="var-t-10" data-value="0.00">
+                        0.00
+                    </span>
+                </h5>
+
+                <h4 class="heading has-sm-size mb-3 has-font-weight-500">
+                    Filter
+                </h4>
+
+                <div class="rectangle type-3">
+
+                    <h4 class="heading has-sm-size mb-3 has-font-weight-500 type-2">
+                        Pompe
+                    </h4>
+
+                    <div class="top-area">
+
+                        <div class="image type-1">
+                            <img src="{% static 'images/shape-39.svg' %}" alt="connector">
+                        </div>
+
+                        <div class="image type-2">
+
+                            <button class="button-icon" data-type="connector-5" data-color="green">
+
+                                <img src="{% static 'images/shape-42.svg' %}" alt="icon">
+
+                            </button>
+
+                        </div>
+
+                        <div class="image type-3">
+                            <img src="{% static 'images/shape-41.svg' %}" alt="connector">
+                        </div>
+
+                        <h4 class="heading has-normal-size has-green-color has-font-weight-500 mb-3">
+                            <span class="is-uppercase-text mr-3 is-inline-block">P</span>
+                            <span data-type-var="p" id="var-p-11" data-value="4.00">
+                                0.00
+                            </span>
+                        </h4>
+
+                        <h4 class="heading has-normal-size has-green-color has-font-weight-500 mb-3">
+                            <span class="is-uppercase-text mr-3 is-inline-block">T</span>
+                            <span data-type-var="t" id="var-t-12" data-value="17.00">
+                                0.00
+                            </span>
+                        </h4>
+
+                    </div>
+
+                    <div class="bottom-area">
+
+                        <div class="image type-1">
+                            <img src="{% static 'images/shape-39.svg' %}" alt="connector">
+                        </div>
+
+                        <div class="image type-2">
+
+                            <button class="button-icon not-auto-connected" data-type="connector-5" data-color="green">
+
+                                <img src="{% static 'images/shape-42.svg' %}" alt="icon">
+
+                            </button>
+
+                        </div>
+
+                        <div class="image type-3">
+                            <img src="{% static 'images/shape-41.svg' %}" alt="connector">
+                        </div>
+
+                        <button class="image button-icon is-36x36 flip-right type-4 not-auto-connected" data-type="connector-1" data-color="green">
+                            <img src="{% static 'images/unconnected-connector.svg' %}" alt="connector">
+                        </button>
+
+                        <h4 class="heading has-normal-size has-green-color has-font-weight-500 mb-3">
+                            <span class="is-uppercase-text mr-3 is-inline-block">P</span>
+                            <span data-type-var="p" id="var-p-13" data-value="0.00">
+                                0.00
+                            </span>
+                        </h4>
+
+                        <h4 class="heading has-sm-size mb-3 has-font-weight-500 type-2">
+                            Pompe de Secours
+                        </h4>
+
+                    </div>
+
+                </div>
+
+           </div>
+
+           .
+           <div class="rectangle type-3">
+
+                <div class="column-3">
+                    <div class="bar-line"></div>
+                    <h4 class="heading has-sm-size mb-3 has-font-weight-500 type-2">
+                        Coffre à faible <br> aspiration
+                    </h4>
+                    <span>
+                        <span></span>
+                    </span>
+                </div>
+
+                <div class="column-9">
+                    <div class="grid-lines">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+           </div>
+
+        </div>
+        <!-- / END FUEL  OIL SYSTEM -->
+
+         {% block contentformateur %}
+            {% include "includes/template-parts/directories.html" %}
+        {% endblock %}
+
+        <audio id="start-timer-sound" src="{% static 'media/start.wav' %}" type="audio/mp3"></audio>
+
+ </main>
+
+{% include "includes/layouts/footer.html" %}
+       

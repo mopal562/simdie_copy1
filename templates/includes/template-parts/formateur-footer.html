@@ -1,0 +1,267 @@
+<footer>
+
+    <div class="buttons-container">
+
+        <div class="flex">
+
+            <!-- BUTTONS -->
+            <a href="{% url 'back' %}" class="primary-button wide-button">
+                <i class="las la-arrow-left"></i>
+
+                Back
+            </a>
+            <a href="#" class="primary-button wide-button modal-trigger" data-trigger="directors">Page Directeur </a>
+            <a href="#" class="primary-button wide-button modal-trigger" data-trigger="mode-de-travial">Mode du travail</a>
+
+            <a href="{% url 'forward' %}" class="primary-button wide-button">
+                Forward
+                <i class="las la-arrow-right"></i>
+
+            </a>
+            <!-- / END BUTTONS -->
+        
+        </div>
+
+    </div>
+ 
+</footer>
+
+<!-- MODAL -->
+<div class="modal-directors is-hidden modal" id="directors">
+
+    <modal class="modal-content">
+
+        <div class="modal-header">
+
+            <h2>Page Directeur</h2>
+
+            <button class="close-modal">
+                <i class="las la-times"></i>
+            </button>
+
+        </div>
+
+        <div class="modal-body">
+
+            <div class="table-head">
+
+                <ul>
+
+                    <li>
+                        <span class="no">nb:</span>
+                        <span class="picture">Nom de figure:</span>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="table-body">
+            
+                <ul class="group">
+
+                   
+                    <li>
+
+                        <span class="no">01</span>
+                        <div class="picture">
+                            <a href="{% url 'page_principale_formateur' %}">moteur de propultion</a>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+
+                <ul class="group">
+                   
+                    <li>
+
+                        <span class="no">02</span>
+                        <div class="picture">
+                            <a href="{% url 'circuit_du_gazoil_formateur' %}">circuit du gazoil</a>
+                        </div>
+
+                    </li>
+                </ul>
+
+                <ul class="group">
+                    <li>
+
+                        <span class="no">03</span>
+                        <div class="picture">
+                            <a href="{% url 'circuit_eau_de_mer_formateur' %}">circuit eau de mer</a>
+                        </div>
+
+                    </li>
+                </ul>
+
+                <ul class="group">
+
+                    <li>
+
+                        <span class="no">04</span>
+                        <div class="picture">
+                            <a href="{% url 'palliers_et_cylinders_formateur' %}">Température des palliers et cylindres</a>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <ul class="group">
+                   
+                    <li>
+
+                        <span class="no">05</span>
+                        <div class="picture">
+                            <a href="{% url 'temperature_d_echapement_des_cylindres_formateur' %}">Température d'échapement des cylindres</a>
+                        </div>
+
+                    </li>
+
+                </ul>
+                <ul class="group">
+
+                    <li>
+
+                        <span class="no">06</span>
+                        <div class="picture">
+                            <a href="{% url 'temperature_des_palliers_formateur' %}">temperature des palliers</a>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <ul class="group">
+
+                    <li>
+
+                        <span class="no">07</span>
+                        <div class="picture">
+                            <a href="{% url 'tableau_des_variable_formateur' %}">Tableau Des Variable</a>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </modal>
+
+</div>
+<!-- / MODAL -->
+
+
+<!-- MODAL -->
+<div class="modal-travial is-hidden modal" id="mode-de-travial">
+
+    <modal class="modal-content step-1" >
+
+        <div class="modal-header">
+
+            <h2 class="has-text-centered">S'il vous plait sélectionner un choix</h2>  
+
+        </div>
+
+        <div class="modal-body">
+
+           <div class="buttons-container">
+
+                <button class="button modal-button">
+                    Entraînement
+                </button>
+
+                <button class="button modal-button diag-button">
+                    Diagnostique
+                </button>
+
+                <button class="button modal-button">
+                    Démarrage du moteur
+                </button>
+
+           </div>
+
+        </div>
+
+    </modal>
+
+    <modal class="modal-content is-hidden step-2">
+
+        <div class="modal-header">
+
+            <h2 class="has-text-centered">S'il vous plait sélectionner un problème</h2>  
+
+        </div>
+
+        <div class="modal-body">
+
+           <div class="problems-list">
+
+                <ul>
+
+                    <li>
+                        <h4>Problème nb: 1</h4>
+                        <a href="#" class="button">Appliquer</a>
+
+                    <li>
+                        <h4>Problème nb: 2</h4>
+                        <a href="#" class="button">Appliquer</a>
+                    </li>
+
+                    <li>
+                        <h4>Problème nb: 3</h4>
+                        <a href="#" class="button">Appliquer</a>
+                    </li>
+
+                    <li>
+                        <h4>Problème nb: 4</h4>
+                        <a href="#" class="button">Appliquer</a>
+                    </li>
+
+                    <li>
+                        <h4>Problème nb: 4</h4>
+                        <a href="#" class="button">Appliquer</a>
+                    </li>
+
+                    <li>
+                        <h4>Problem no: 5</h4>
+                        <a href="#" class="button">Appliquer</a>
+                    </li>
+                    <li>
+                        <h4>Problème nb: 6</h4>
+                        <a href="#" class="button">Appliquer</a>
+                    </li>
+
+                    <li>
+                        <h4>Problème nb: 7</h4>
+                        <a href="#" class="button">Appliquer</a>
+                    </li>
+
+                    <li>
+                        <h4>Problème nb: 8</h4>
+                        <a href="#" class="button">Appliquer</a>
+                    </li>
+
+                </ul>
+
+           </div>
+
+        </div>
+
+    </modal>
+
+</div>
+<!-- / MODAL -->
+
+<script>
+   document.querySelector('.diag-button').addEventListener('click', (e) => {
+        e.preventDefault();
+        document.querySelector('modal.step-1').classList.add('is-hidden');
+        document.querySelector('modal.step-2').classList.remove('is-hidden');
+   })
+</script>

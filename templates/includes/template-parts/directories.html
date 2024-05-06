@@ -1,0 +1,207 @@
+<footer>
+
+    <div class="buttons-container">
+
+        <div class="flex">
+
+            <!-- BUTTONS -->
+            <a href="{% url 'back' %}" class="primary-button wide-button">
+                <i class="las la-arrow-left"></i>
+
+                Back 
+            </a>
+            <a href="#" class="primary-button wide-button modal-trigger" data-trigger="directors">Page Directeur</a>
+            <a href="#" class="primary-button wide-button ">Generate des problems</a>
+            <a href="#" class="primary-button wide-button modal-trigger" data-trigger="confirm">Voir la solution</a>
+
+            <a href="{% url 'forward' %}" class="primary-button wide-button">
+                Forward 
+                <i class="las la-arrow-right"></i>
+
+            </a>
+            <!-- / END BUTTONS -->
+        
+        </div>
+
+    </div>
+ 
+</footer>
+
+<!-- MODAL -->
+<div class="modal-directors is-hidden modal" id="directors">
+
+    <modal class="modal-content">
+
+        <div class="modal-header">
+
+            <h2>Page Directeur</h2>
+
+            <button class="close-modal">
+                <i class="las la-times"></i>
+            </button>
+
+        </div>
+
+        <div class="modal-body">
+
+            <div class="table-head">
+
+                <ul>
+
+                    <li>
+                        <span class="no">nb:</span>
+                        <span class="picture">Nom de figure:</span>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="table-body">
+            
+                <ul class="group">
+
+                    
+                    <li>
+
+                        <span class="no">01</span>
+                        <div class="picture">
+                            <a href="{% url 'page_principale' %}">moteur de propultion</a>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+
+                <ul class="group">
+                    
+                    <li>
+
+                        <span class="no">02</span>
+                        <div class="picture">
+                            <a href="{% url 'circuit_du_gazoil' %}">circuit du gazoil</a>
+                        </div>
+
+                    </li>
+                </ul>
+
+                <ul class="group">
+                    <li>
+
+                        <span class="no">03</span>
+                        <div class="picture">
+                            <a href="{% url 'circuit_eau_de_mer' %}">circuit eau de mer</a>
+                        </div>
+
+                    </li>
+                </ul>
+
+                <ul class="group">
+
+                    <li>
+
+                        <span class="no">04</span>
+                        <div class="picture">
+                            <a href="{% url 'palliers_et_cylinders' %}">Température des palliers et cylindres</a>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <ul class="group">
+                    
+                    <li>
+
+                        <span class="no">05</span>
+                        <div class="picture">
+                            <a href="{% url 'temperature_d_echapement_des_cylindres' %}">Température d'échapement des cylindres</a>
+                        </div>
+
+                    </li>
+
+                </ul>
+                <ul class="group">
+
+                    <li>
+
+                        <span class="no">06</span>
+                        <div class="picture">
+                            <a href="{% url 'temperature_des_palliers' %}">temperature des palliers</a>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <ul class="group">
+
+                    <li>
+
+                        <span class="no">07</span>
+                        <div class="picture">
+                            <a href="{% url 'tableau_des_variable' %}">Tableau Des Variable</a>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </modal>
+
+</div>
+<!-- / MODAL -->
+
+<!-- MODAL -->
+<div class="modal-confirm is-hidden modal" id="confirm">
+
+    <modal class="modal-content">
+
+        <div class="modal-header">
+
+            <h2>Vous êtes sûr </h2>
+
+        </div>
+
+        <div class="modal-body">
+
+
+            <div class="table-body">
+            
+                <div class="buttons-container">
+
+                    <button class="button modal-button modal-close"  data-modal="confirm">
+                        Annuler
+                    </button>
+
+                    <a href="#" class="button modal-button confirm-button">
+                        Confirmer
+                    </a>
+
+                </div>
+              
+            </div>
+
+        </div>
+
+    </modal>
+
+</div>
+<!-- / MODAL -->
+
+<script>
+    document.querySelector(' #confirm .modal-close').addEventListener('click', ( e) => {
+        e.preventDefault();
+
+        const confirmModal = document.getElementById(document.querySelector(' #confirm .modal-close').getAttribute('data-modal'));
+
+        confirmModal.classList.add('is-hidden');
+
+        
+    })
+</script>

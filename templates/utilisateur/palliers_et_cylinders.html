@@ -1,0 +1,380 @@
+{% load static %}
+
+{% include "includes/layouts/header.html" %}
+
+    <!-- CONTROLLER BOARD -->
+    <main id="pfe-controller-board">
+
+     {% include "includes/layouts/navbar.html" %}
+
+        <!-- palliers-et-cylinders -->
+        <div class="palliers-et-cylinders">
+
+
+            <div class="cyclinders">
+
+                <div class="cyclinders-rectangle-bars">
+
+                    <div class="bar type-1 col-1">
+
+                        <div class="disk-bar">
+
+                            <div class="image">
+                                <img src="{% static 'images/disk.svg' %}" alt="disk">
+                            </div>
+
+                            <div class="bar-line"></div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="bar type-2 col-2">
+
+                         <div class="disk-bar">
+
+                            <div class="image">
+                                <img src="{% static 'images/disk.svg' %}" alt="disk">
+                            </div>
+
+                            <div class="bar-line"></div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="bar type-3 col-3">
+
+                         <div class="disk-bar">
+
+                            <div class="image">
+                                <img src="{% static 'images/disk.svg' %}" alt="disk">
+                            </div>
+
+                            <div class="bar-line"></div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="bar type-4 col-3">
+
+                         <div class="disk-bar">
+
+                            <div class="image">
+                                <img src="{% static 'images/disk.svg' %}" alt="disk">
+                            </div>
+
+                            <div class="bar-line"></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="bar type-5 col-2">
+
+                         <div class="disk-bar">
+
+                            <div class="image">
+                                <img src="{% static 'images/disk.svg' %}" alt="disk">
+                            </div>
+
+                            <div class="bar-line"></div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="bar type-6 col-1">
+
+                         <div class="disk-bar">
+
+                            <div class="image">
+                                <img src="{% static 'images/disk.svg' %}" alt="disk">
+                            </div>
+
+                            <div class="bar-line"></div>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+
+                <div class="motor-air-fan">
+
+                    <div class="line-pomp">
+
+                        <div class="water-pump image">
+
+                            <img src="{% static 'images/shape-26.svg' %}" alt="water pump">
+
+
+                            <div class="connect-shape">
+                                <span></span>
+                                <span></span>
+                            </div>
+
+
+                            <div class="rotate-3d">
+
+                                <div class="ceiling-container">
+        
+                                    <div class="ceiling-fan horizontal left"></div>
+                                    <div class="ceiling-fan horizontal right"></div>  
+                                    <div class="ceiling-fan vertical rotated top"></div>
+                                    <div class="ceiling-fan vertical rotated bottom"></div>
+                                        
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="mechanism-list">
+
+                        <div class="mechanism type-1 item-1">
+                            <div class="square item-1">
+                                <span></span>
+                            </div>
+                            <div class="square item-2 has-br">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="square item-3">
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <div class="mechanism type-2 item-2">
+                            <div class="square item-1 has-br">
+                                 <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="square item-2">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+
+                         <div class="mechanism type-3 item-3">
+                            <div class="square item-1 has-br">
+                                <span></span>
+                            </div>
+                            <div class="square item-2">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="square item-3 has-br">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <div class="mechanism type-1 item-4">
+                            <div class="square item-1">
+                                <span></span>
+                            </div>
+                            <div class="square item-2 has-br">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="square item-3">
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <div class="mechanism type-2 item-5">
+
+                            <div class="square item-1 has-br">
+                                 <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <div class="square item-2">
+                                <span></span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="temperature-bars">
+
+                <div class="temperature-item paliers">
+
+                    <a href="{% url 'temperature_des_palliers' %}">
+
+                        <div class="top-bar">
+                            <div class="title-card has-text-centered">Température des paliers en °C</div>
+                        </div>
+
+                        <div class="card-content">
+
+                            <div class="key">
+
+                                <ul>
+
+                                    <li class="red">
+                                        <span></span>
+                                        <h3>T>90</h3>
+                                    </li>
+
+                                    <li class="blue">
+                                        <span></span>
+                                        <h3>75>T>70</h3>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                            <div class="progess-area">
+
+                                <div class="progress item-1">
+                                    <span class="bar" data-charge="0"></span>
+                                    <span class="bar-num" >1</span>
+                                </div>
+
+                                <div class="progress item-2">
+                                    <span class="bar" data-charge="0"></span>
+                                    <span class="bar-num" >2</span>
+                                </div>
+
+                                <div class="progress item-3">
+                                    <span class="bar" data-charge="0"></span>
+                                    <span class="bar-num" >3</span>
+                                </div>
+
+                                <div class="progress item-4">
+                                    <span class="bar" data-charge="0"></span>
+                                    <span class="bar-num">4</span>
+                                </div>
+
+                                <div class="progress item-5">
+                                    <span class="bar" data-charge="0"></span>
+                                    <span class="bar-num">5</span>
+                                </div>
+
+                                <div class="progress item-6">
+                                    <span class="bar" data-charge="0"></span>
+                                    <span class="bar-num" >6</span>
+                                </div>
+
+                                <div class="progress item-7">
+                                    <span class="bar" data-charge="0"></span>
+                                    <span class="bar-num" >7</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+                <div class="temperature-item echapment">
+
+                    <a href="{% url 'temperature_d_echapement_des_cylindres' %}">
+
+                        <div class="top-bar">
+                            <div class="title-card has-text-centered">Température d'échapment en °C</div>
+                        </div>
+
+                        <div class="card-content">
+
+                            <div class="key">
+
+                                <ul>
+
+                                    <li class="yellow">
+                                        <span></span>
+                                        <h3>T<320</h3>
+                                    </li>
+
+                                    <li class="blue">
+                                        <span></span>
+                                        <h3>450>T>430</h3>
+                                    </li>
+
+                                    <li class="red">
+                                        <span></span>
+                                        <h3>T>510</h3>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                            <div class="progess-area">
+
+                                <div class="progress item-1">
+                                    <span class="bar" data-charge="0"></span>
+                                    <span class="bar-num" >1</span>
+                                </div>
+
+                                <div class="progress item-2">
+                                    <span class="bar" data-charge="0"></span>
+                                    <span class="bar-num" >2</span>
+                                </div>
+
+                                <div class="progress item-3">
+                                    <span class="bar" data-charge="0"></span>
+                                    <span class="bar-num" >3</span>
+                                </div>
+
+                                <div class="progress item-4">
+                                    <span class="bar" data-charge="0"></span>
+                                    <span class="bar-num">4</span>
+                                </div>
+
+                                <div class="progress item-5">
+                                    <span class="bar" data-charge="0"></span>
+                                    <span class="bar-num">5</span>
+                                </div>
+
+                                <div class="progress item-6">
+                                    <span class="bar" data-charge="0"></span>
+                                    <span class="bar-num" >6</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- / END palliers-et-cylinders -->
+
+        <!-- FOOTER -->
+       
+        {% block contentformateur %}
+            {% include "includes/template-parts/directories.html" %}
+        {% endblock %}
+
+
+        <audio id="start-timer-sound" src="{% static 'media/start.wav' %}" type="audio/mp3"></audio>
+        <audio id="start-fan-sound" src="{% static 'media/fan.mp3' %}" type="audio/mp3" loop></audio>
+
+ </main>
+
+{% include "includes/layouts/footer.html" %}

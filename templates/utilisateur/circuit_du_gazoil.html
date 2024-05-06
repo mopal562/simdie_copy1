@@ -1,0 +1,429 @@
+{% load static %}
+
+{% include "includes/layouts/header.html" %}
+
+    <!-- CONTROLLER BOARD -->
+    <main id="pfe-controller-board">
+
+     {% include "includes/layouts/navbar.html" %}
+
+        <!-- FUEL OIL SYSTEM  -->
+        <div class="circuit-du-gazoil">
+
+            <div class="de-section">
+
+                <div class="caisse-jornaliare">
+
+                    <h4 class="heading has-sm-size mb-3 has-font-weight-500">
+                        Retour de la <br> pompe injection
+                    </h4>
+
+                    <i class="las la-long-arrow-alt-left"></i>
+
+                    <div class="column type-1">
+
+                        <div class="button-container has-text-centered">
+
+
+                            <h4 class="heading has-sm-size has-font-weight-500 mb-10 ">
+                                Moteur  <br> Diesel
+                            </h4>
+
+                            <a href="{% url 'page_principale' %}" class="primary-button">01</a>
+
+                        </div>
+
+                    </div>
+
+                    <i class="las la-long-arrow-alt-right"></i>
+
+                    <div class="exp-battery">
+
+                        <h2 class="heading has-large-size has-green-color has-font-weight-500 mb-3">
+                            <span class="is-uppercase-text mr-3 is-inline-block">L</span>
+                            <span data-type-var="l" id="var-l-1" data-value="80.00">0.00</span>
+                        </h2>
+
+                        <div class="image exp-icon has-transparent">
+
+                            <img src="{% static 'images/shape-37.svg' %}" alt="icon">
+
+                            <!-- BATTERY -->
+                            <div class="battery-status">
+                                <div class="charge-status" data-charge="90"></div>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <!--  / END BATTERY -->
+
+                        </div>
+
+                    </div>
+
+                    <div class="timer-value-output type-1">
+
+                        <div class="image">
+                            <img src="{% static 'images/shape-38.svg' %}" alt="timer">
+
+                            <span class="value-data-timer" id="timer-value-output-type-1" data-value="1.00">0.00</span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="timer-value-output type-2">
+
+                        <div class="image">
+                            <img src="{% static 'images/shape-38.svg' %}" alt="timer">
+
+                            <span class="value-data-timer" id="timer-value-output-type-2" data-value="1.00">0.00</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="de-map">
+
+                    <div class="rectangle shape-1">
+
+                        <div class="rectangle shape-3">
+
+                            <div class="top-shape">
+
+                                <h4 class="heading has-sm-size mb-3 has-font-weight-500">
+                                    Vers injection
+                                </h4>
+
+                                <i class="las la-angle-right"></i>
+
+                            </div>
+
+                            <div class="grid-shapes">
+
+                                <div class="shape-column column-1">
+
+                                    <div class="square-shape">
+                                        1
+
+                                        <div class="left-position">
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+
+                                        <div class="right-position">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="shape-column column-2">
+
+                                    <div class="square-shape ">
+                                        2
+
+                                        <div class="left-position">
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+
+                                        <div class="right-position">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="shape-column column-3">
+
+                                    <div class="square-shape ">
+                                        3
+
+                                        <div class="left-position">
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+
+                                        <div class="right-position">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="shape-column column-4">
+
+                                    <div class="square-shape ">
+                                        4
+
+                                        <div class="left-position">
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+
+                                        <div class="right-position">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="shape-column column-5">
+
+                                    <div class="square-shape ">
+                                        5
+
+                                        <div class="left-position">
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+
+                                        <div class="right-position">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="grid-lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+
+                                <div class="image exp-icon">
+
+                                    <h4 class="heading has-sm-size mb-3 has-font-weight-500">
+                                        Caisse à égoutture
+                                    </h4>
+
+                                    <img src="{% static 'images/shape-23.svg' %}" alt="icon">
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="rectangle type-3">
+
+                        <div class="top-area">
+
+                            <div class="connector key-2">
+
+                                <button class="image button-icon is-36x36 not-auto-connected" data-type="connector-1" data-color="orange">
+                                    <img src="{% static 'images/unconnected-connector.svg' %}" alt="connector">
+                                </button>
+
+                            </div>
+
+                            <div class="image is-26x26 shape-1">
+                                <img src="{% static 'images/shape-4-orange.svg' %}" alt="">
+                            </div>
+
+                            <div class="connector key-2 shape-3">
+
+                                <button class="image button-icon is-36x36 not-auto-connected" data-type="connector-1" data-color="orange">
+                                    <img src="{% static 'images/unconnected-connector.svg' %}" alt="connector">
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                        <h4 class="heading has-sm-size mb-3 has-font-weight-500">
+                            Filtre <br> primairie
+                        </h4>
+
+                        <h5 class="heading has-normal-size has-green-color has-font-weight-500 mb-3">
+                            <i class="las la-caret-up"></i>
+                            <span class="is-uppercase-text mr-3 is-inline-block">P</span>
+                            <span data-type-var="p" id="var-p-2" data-value="0.00">0.00</span>
+                        </h5>
+
+                        <div class="bottom-area">
+
+                            <div class="connector key-2">
+
+                                <button class="image button-icon is-36x36" data-type="connector-1" data-color="orange">
+                                    <img src="{% static 'images/unconnected-connector.svg' %}" alt="connector">
+                                </button>
+
+                            </div>
+
+                            <div class="image is-26x26 shape-1">
+                                <img src="{% static 'images/shape-4-orange.svg' %}" alt="">
+                            </div>
+
+                            <div class="connector key-2 shape-3">
+
+                                <button class="image button-icon is-36x36" data-type="connector-1" data-color="orange">
+                                    <img src="{% static 'images/unconnected-connector.svg' %}" alt="connector">
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="rectangle type-4">
+
+                        <div class="top-area">
+
+                            <div class="connector key-2">
+
+                                <button class="image button-icon is-36x36 not-auto-connected" data-type="connector-1" data-color="orange">
+                                    <img src="{% static 'images/unconnected-connector.svg' %}" alt="connector">
+                                </button>
+
+                            </div>
+
+                            <div class="image is-26x26 shape-1">
+                                <img src="{% static 'images/shape-4-orange.svg' %}" alt="">
+                            </div>
+
+                            <div class="connector key-2 shape-3">
+
+                                <button class="image button-icon is-36x36 not-auto-connected" data-type="connector-1" data-color="orange">
+                                    <img src="{% static 'images/unconnected-connector.svg' %}" alt="connector">
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                        <h4 class="heading has-sm-size mb-3 has-font-weight-500">
+                            Filtre <br> Secondaire
+                        </h4>
+
+                        <h5 class="heading has-normal-size has-green-color has-font-weight-500 mb-3">
+                            <i class="las la-caret-up"></i>
+                            <span class="is-uppercase-text mr-3 is-inline-block">P</span>
+                            <span data-type-var="p" id="var-p-3" data-value="0.00">0.00</span>
+                        </h5>
+
+                        <div class="bottom-area">
+
+                            <div class="connector key-2">
+
+                                <button class="image button-icon is-36x36" data-type="connector-1" data-color="orange">
+                                    <img src="{% static 'images/unconnected-connector.svg' %}" alt="connector">
+                                </button>
+
+                            </div>
+
+                            <div class="image is-26x26 shape-1">
+                                <img src="{% static 'images/shape-4-orange.svg' %}" alt="">
+                            </div>
+
+                            <div class="connector key-2 shape-3">
+
+                                <button class="image button-icon is-36x36" data-type="connector-1" data-color="orange">
+                                    <img src="{% static 'images/unconnected-connector.svg' %}" alt="connector">
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="map-box">
+
+                        <div class="rectangle-with-icon">
+                            <div class="image is-20x20">
+                                <img src="{% static 'images/shape-1.svg' %}" alt="connector">
+                            </div>
+                        </div>
+
+                        <div class="rectangle-with-icon">
+                            <div class="image is-20x20">
+                                <img src="{% static 'images/shape-2.svg' %}" alt="connector">
+                            </div>
+                            <div class="image is-48x48">
+                                <img data-connect-color="yellow" data-image="shape-3" src="{% static 'images/shape-3.svg' %}" alt="connector">
+                            </div>
+                        </div>
+
+                        <h3 class="heading has-large-size has-green-color has-font-weight-500 mb-3">
+                            <span class="is-uppercase-text mr-3 is-inline-block">P</span>
+                            <span data-type-var="p" id="var-p-4" data-value="0.00">3.00</span>
+                        </h3>
+
+                        <h4 class="heading has-sm-size has-font-weight-500 mb-10 ">
+                            Pompe Nourice
+                        </h4>
+
+                    </div>
+
+                </div>
+
+                <div class="rectangle right-column">
+
+                    <h3 class="heading has-large-size has-green-color has-font-weight-500 mb-3">
+                        <span class="is-uppercase-text mr-3 is-inline-block">P</span>
+                        <span data-type-var="p" id="var-p-5" data-value="4.00">0.00</span>
+                    </h3>
+
+                    <div class="heading-container">
+                        <span>
+                            <i class="las la-angle-left"></i>
+                        </span>
+                        <h4 class="heading has-sm-size mb-3 has-font-weight-500">
+                            Vers Pompe <br> injection
+                        </h4>
+                    </div>
+
+                    <div class="bottom-area">
+                        <div class="image is-20x20">
+                            <img src="{% static 'images/shape-1.svg' %}" alt="connector">
+                        </div>
+
+                        <h4 class="heading has-sm-size mb-3 has-font-weight-500">
+                            Platin de <br> Sur Vitesse
+                        </h4>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- / END FUEL  OIL SYSTEM -->
+                
+        {% block contentformateur %}
+            {% include "includes/template-parts/directories.html" %}
+        {% endblock %}
+
+
+        <audio id="start-timer-sound" src="{% static 'media/start.wav' %}" type="audio/mp3"></audio>
+
+ </main>
+
+{% include "includes/layouts/footer.html" %}

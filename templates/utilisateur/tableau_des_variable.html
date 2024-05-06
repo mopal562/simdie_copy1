@@ -1,0 +1,351 @@
+{% load static %}
+
+{% include "includes/layouts/header.html" %}
+
+    <!-- CONTROLLER BOARD -->
+    <main id="pfe-controller-board">
+
+
+        <div class="modal-general-variable  modal variable-generale" id="general-variable" style="background-color: #1e2631;">
+
+            <modal class="modal-content">
+
+                <div class="modal-header">
+
+                    <h2>Tableau Des Variable</h2>
+
+                    <a href="{% url 'back' %}" class="close-modal" style="padding: 0 5px;">
+                        <i class="las la-times"></i>
+                    </a>
+
+                </div>
+
+                 <!-- Variable générale -->
+                <div class="modal-body">
+
+                    <div class="cards-container">
+
+                        <div class="card-component item-1">
+
+                            <div class="card-icon image" >
+                                <img src="{% static 'images/icons/fuel.png' %}" alt="logo">
+                            </div>
+
+                            <div class="card-body">
+
+
+                                <h3 class="card-title">
+                                    Pression de gazoil
+                                </h3>
+
+                                <div class="card-content">
+
+                                    <div class="card-value" data-value="4.00" data-default-value="90">
+                                        90
+                                    </div>
+                                    <div>bar</div>
+
+                                </div>
+                                
+
+                            </div>
+                            
+                            
+
+                        </div>
+
+                        <div class="card-component item-2">
+
+                            <div class="card-icon image" >
+                                <img src="{% static 'images/icons/oil.png' %}" alt="logo">
+                            </div>
+
+                            <div class="card-body">
+                                <h3 class="card-title">
+                                    Pression d'huile
+                                </h3>
+
+                                <div class="card-content">
+
+                                    <div class="card-value" data-value="6.00" data-default-value="90">
+                                        90
+                                    </div>
+
+                                    <div>bar</div>
+
+                                </div>
+
+                            </div>
+                            
+                            
+
+                        </div>
+
+                        <div class="card-component item-3">
+
+                            <div class="card-icon image" >
+                                <img src="{% static 'images/icons/water-drop.png' %}" alt="logo">
+                            </div>
+
+                            <div class="card-body">
+
+                                <h3 class="card-title">
+                                    Pression eau douce
+                                </h3>
+
+                                <div class="card-content">
+
+                                    <div class="card-value" data-value="4.00" data-default-value="89">
+                                        89
+                                    </div>
+
+                                    <div>bar</div>
+
+                                </div>
+
+                            </div>
+                            
+
+                        </div>
+
+                        <div class="card-component item-4">
+
+                            <div class="card-icon image" >
+                                <img src="{% static 'images/icons/wave.png' %}" alt="logo">
+                            </div>
+
+                            <div class="card-body">
+
+                                <h3 class="card-title">
+                                    Pression eau de mer
+                                </h3>
+
+                                <div class="card-content">
+
+                                    <div class="card-value" data-value="4.00" data-default-value="89">
+                                        89
+                                    </div>
+
+                                    <div>bar</div>
+
+                                </div>
+
+                            </div>
+                            
+                            
+
+                        </div>
+
+                        <div class="card-component item-5">
+
+                            <div class="card-icon image" >
+                                <img src="{% static 'images/icons/energetic.png' %}" alt="logo">
+                            </div>
+
+                            <div class="card-body">
+
+                                <h3 class="card-title">
+                                    Puissance
+                                </h3>
+
+
+                                <div class="card-content">
+
+                                    <div class="card-value"  data-value="1800.00" data-default-value="87">
+                                        87
+                                    </div>
+
+                                    <div>kw</div>
+
+                                </div>
+
+                            </div>
+                            
+                            
+
+                        </div>
+
+                        <div class="card-component item-6">
+
+                            <div class="card-icon image" >
+                                <img src="{% static 'images/icons/fast.png' %}" alt="logo">
+                            </div>
+
+                            <div class="card-body">
+
+                                <h3 class="card-title">
+                                    Vitesse
+                                </h3>
+
+                                <div class="card-content">
+
+                                    <div class="card-value" data-value="1200.00" data-default-value="10">
+                                        86
+                                    </div>
+
+                                    <div>tr/min</div>
+
+                                </div>
+
+                            </div>
+                            
+                            
+
+                        </div>
+
+                        <div class="card-component item-7">
+
+                            <div class="card-icon image" >
+                                <img src="{% static 'images/icons/thermometer.png' %}" alt="logo">
+                            </div>
+
+                            <div class="card-body">
+
+                                <h3 class="card-title">
+                                    Temperature d'échapement
+                                </h3>
+
+                                <div class="card-content">
+
+                                    <div class="card-value" data-value="450.00" data-default-value="90">
+                                        450
+                                    </div>
+
+
+                                    <div>°C</div>
+
+                                </div>
+
+                            </div>
+                            
+                            
+
+                        </div>
+
+                        <div class="card-component item-8">
+
+                            <div class="card-icon image" >
+                                <img src="{% static 'images/icons/thermometer.png' %}" alt="logo">
+                            </div>
+
+
+                            <div class="card-body">
+
+                                <h3 class="card-title">
+                                    Temperature des palliers
+                                </h3>
+
+
+                                <div class="card-content">
+
+                                    <div class="card-value" data-value="70.00" data-default-value="90">
+                                        90
+                                    </div>
+
+                                    <div>°C</div>
+
+                                </div>
+
+                            </div>
+                            
+                            
+
+                        </div>
+
+                        <div class="card-component item-8">
+
+                            <div class="card-icon image" >
+                                <img src="{% static 'images/icons/thermometer.png' %}" alt="logo">
+                            </div>
+
+                            <div class="card-body">
+
+                                <h3 class="card-title">
+                                    Temperature d'huile
+                                </h3>
+
+
+                                <div class="card-content">
+                                    <div class="card-value" data-value="68.00" data-default-value="89">
+                                        89
+                                    </div>
+
+                                    <div>°C</div>
+
+                                </div>
+
+                            </div>
+                            
+                            
+
+                        </div>
+
+                        <div class="card-component item-9">
+
+                            <div class="card-icon image" >
+                                <img src="{% static 'images/icons/thermometer.png' %}" alt="logo">
+                            </div>
+
+                            <div class="card-body">
+
+                                <h3 class="card-title">
+                                    Temperature eau douce
+                                </h3>
+
+
+                                <div class="card-content">
+
+                                    <div class="card-value" data-value="4.00" data-default-value="89">
+                                        89
+                                    </div>
+
+                                    <div>°C</div>
+
+                                </div>
+
+                            </div> 
+
+                        </div>
+
+                        <div class="card-component item-10">
+
+                            <div class="card-icon image" >
+                                <img src="{% static 'images/icons/thermometer.png' %}" alt="logo">
+                            </div>
+
+                            <div class="card-body">
+
+                                <h3 class="card-title">
+                                    Temperature eau de mer
+                                </h3>
+
+
+                                <div class="card-content">
+                                    
+                                    <div class="card-value" data-value="4.00" data-default-value="87">
+                                        87
+                                    </div>
+
+                                    <div>°C</div>
+
+                                </div>
+
+                            </div>
+                            
+                            
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- / END Variable générale -->
+
+            </modal>
+
+        </div>
+
+
+ </main>
+
+{% include "includes/layouts/footer.html" %}
