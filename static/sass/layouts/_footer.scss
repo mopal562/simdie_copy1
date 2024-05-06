@@ -1,0 +1,35 @@
+footer {
+    border-top: 1px solid $darkTextColor;
+
+    .buttons-container {
+
+        .flex {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            display: flex;
+            justify-content: center;
+        }
+    
+        .primary-button.wide-button {
+            width: 160px;
+            display: flex;
+            height: 50px;
+            align-items: center;
+            justify-content: center;
+            text-transform: capitalize;
+            font-weight: 500;
+
+            i {
+                font-size: 1.05rem;
+                margin-inline: 5px;
+            }
+
+            &:not(:last-of-type) {
+                margin-right: 10px;
+            }
+        }
+
+    }
+
+    
+}

@@ -1,0 +1,991 @@
+.fuel-oil-system {
+
+    display: flex;
+    margin-bottom: 75px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .hfo-section {
+
+        width: 33.33%;
+        height: 600px;
+        border-right: 5px solid #e79c2c;
+
+        .hfo-map{
+
+            width: 100%;
+            height: 375px;
+            border: 5px solid #e79c2c;
+            border-right: none;
+            position: relative;
+
+            > .buttons-container {
+                width: 120px;
+                background-color: $mainBackgroundColor;
+                position: absolute;
+                top: -55px;
+                left: -25px;
+                padding-bottom: 5px;
+
+                .button-container {
+                    padding-top: 5px;
+                }
+
+                > .button-group:first-of-type {
+                    text-align: right;
+                    margin-bottom: 20px;
+
+                    .primary-button {
+                        display: inline-block;
+                        margin-left: auto;
+                        margin-right: -10px;
+                    }
+                }
+
+                > i {
+                    position: absolute;
+                    top: 180px;
+                    
+                }
+            }
+
+            > .group-heading {
+                position: absolute;
+                top: 115px;
+                left: 10px;
+
+                h4 > span:first-of-type {
+                    width: 10px;
+                }
+            }
+
+            .shape-1 {
+                position: absolute;
+                bottom: -15px;
+                left: 20px;
+                text-align: center;
+                margin: auto;
+
+                h4 {
+                    margin-bottom: 15px;
+                }
+
+                .image {
+                    position: relative;
+                    left: 8px;
+                }
+            }
+
+            > .heading-group {
+
+                position: absolute;
+                bottom: 45px;
+                left: 100px;
+
+                > h4:first-of-type {
+                    margin-bottom: 15px;
+                }
+
+                > .flex {
+                    display: flex;
+                    align-items: center;
+                    margin-left: 30px;
+
+                    i {
+                        margin-right: 5px;
+                    }
+                }
+
+                >h4:nth-of-type(2) {
+                    position: absolute;
+                    bottom: -30px;
+                    left: 100px;
+                    width: 100px;
+                }
+
+                > .is-columns {
+                    position: absolute;
+                    left: 235px;
+                    width: 100px;
+                    bottom: -50px;
+
+                    h4 {
+                        position: relative;
+                        top: 5px;
+                    }
+
+                    i {
+                        margin-left: 30px;
+                    }
+                }
+            }
+
+            .type-1 {
+                width: 70px;
+                height: 30px;
+                position: absolute;
+                top: auto;
+                bottom: -3px;
+                left: 100px;
+                border: 0.5px solid #fdc616;
+                border-bottom: 0;
+
+                .image:first-of-type {
+
+                    width: 54px;
+                    height: 54px;
+                    position: relative;
+                    bottom: -4px;
+                    left: 8px;
+
+                    img {
+                        transform: translate(-6px, 0);
+                    }
+
+                }
+
+                .image:nth-of-type(2) {
+                    position: absolute;
+                    top: -16px;
+                    left: 24px;
+                    width: 22px;
+                    height: 22px;
+                }
+
+                .image:nth-of-type(3) {
+                    position: absolute;
+                    top: auto;
+                    bottom: -11px;
+                    left: auto;
+                    right: -34px;
+                    width: 22px;
+                    height: 22px;
+                    background-color: $mainBackgroundColor;
+                }
+
+                .image:nth-of-type(4) {
+                    position: absolute;
+                    top: auto;
+                    bottom: -11px;
+                    left: -31px;
+                    width: 22px;
+                    height: 22px;
+                    background-color: $mainBackgroundColor;
+                }
+
+            }
+
+            .connector.key-1 {
+                position: absolute;
+                bottom: -25px;
+                left: 275px;
+            }
+
+            .exp-icon {
+                position: absolute;
+                left: auto;
+                right: -17px;
+                height: 80px;
+                background-color: $mainBackgroundColor;
+
+                &:before {
+                    content: '';
+                    position: absolute;
+                    width: .5px;
+                    height: 70%;
+                    background-color: #a7a8a9;
+                    top: 5px;
+                    z-index: -1;
+                    left: 17px;
+                }
+
+                &:after {
+                    content: '';
+                    position: absolute;
+                    width: .5px;
+                    height: 30%;
+                    background-color: $yellowLine;
+                    bottom: 0;
+                    z-index: -1;
+                    left: 17px
+                    
+                }
+
+                img {
+                    width: 32px;
+                    height: 32px;
+                    position: relative;
+                    top: 30px;
+                }
+
+                > h4 {
+                    position: absolute;
+                    left: -110px;
+                    width: 100px;
+                    text-align: center;
+                    top: 25px;
+                }
+            }
+
+            .exp-icon-2 {
+                position: absolute;
+                left: auto;
+                right: -20px;
+                top: 77px;
+
+                img {
+                    width: 32px;
+                    position: relative;
+                }
+
+                .heading-group {
+                    position: absolute;
+                    left: -110px;
+                    width: 100px;
+                    text-align: center;
+                    top: 25px;
+
+                    >h4:first-of-type {
+                        margin-bottom: 10px;
+                    }
+
+                    > h4:last-of-type {
+                        position: relative;
+                        left: 15px;
+                        span {
+                            position: relative;
+                            top: -5px;
+                            left: -3;
+                        }
+                    }
+                }
+            }
+
+            .rectangle.shape-2 {
+                width: 145px;
+                height: 100px;
+                background-color: $mainBackgroundColor;
+                position: absolute;
+                left: auto;
+                right: -145px;
+                top: -5px;
+                border: 5px solid #e79c2c;
+                border-radius: 3px;
+                z-index: 1;
+
+                > .flex {
+                    position: absolute;
+                    display: flex;
+                    top: -26px;
+                    align-items: center;
+                    left: 15px;
+                    
+                    i {
+                        margin-right: 7px;
+                    }
+                }
+
+                > .columns {
+                    position: absolute;
+                    bottom: -25px;
+                    left: 22px;
+                    text-align: center;
+
+                    i {
+                        margin-top: 5px;
+                    }
+                }
+
+                > .connector {
+                    position: absolute;
+                    bottom: -24px;
+                    left: 91px;
+                    z-index: 1;
+                }
+            }
+
+        }
+
+        .hft-outputs-screens {
+            position: relative;
+            height: 225px;
+            width: 100%;
+
+            > .flex  {
+                display: flex;
+                position: absolute;
+                bottom: 0;
+
+                .output-screen-item {
+                    margin-right: 20px;
+                }
+
+            }
+
+            .connector.key-2 {
+                position: absolute;
+                left: auto;
+                right: -21.5px;
+                top: 60px;
+                width: auto;
+            }
+
+            > .heading-group {
+                position: absolute;
+                bottom: -42px;
+                left: auto;
+                right: -33px;
+
+                i {
+                    position: absolute;
+                    transform: rotate(180deg);
+                    top: -60px;
+                }
+
+                h3 {
+                    position: absolute;
+                    top: -60px;
+                    left: auto;
+                    right: -28px;
+                }
+            }
+
+        }
+
+    }
+
+    .de-section {
+
+        width: 66%;
+        height: 600px;
+        display: flex;
+
+        .de-map {
+            width: 80%;
+            height: 390px;
+            border-right: 5px solid #e79c2c;
+            border-bottom: 5px solid #e79c2c;
+            border-bottom-right-radius: 3px;
+            position: relative;
+
+            .rectangle {
+
+                &.shape-1 {
+                    width: calc(100% - 106px);
+                    margin-left: 106px;
+                    height: 130px;
+                    background-color: $mainBackgroundColor;
+                    border: 5px solid #e79c2c;
+                    border-top: none;
+                    border-right: none;
+                    position: relative;
+
+
+                    .shape-3 {
+                        width: 575px;
+                        height: 70px;
+                        position: absolute;
+                        bottom: 0;
+                        left: 100px;
+                        border-left: 5px solid #e79c2c;
+                        border-right: 5px solid #e79c2c;
+
+                        > .heading-group:first-of-type {
+                            position: absolute;
+                            top: -70px;
+                            left: 50%;
+
+                            h4 {
+                                margin-bottom: 5px;
+                            }
+
+                            i {
+                                transform: rotate(180deg);
+                                color: $darkTextColor;
+                            }
+                        }
+
+                        > .heading:first-of-type {
+                            position: absolute;
+                            left: 90px;
+                            top: -30px;
+                            background-color: $mainBackgroundColor;
+                            text-align: center;
+
+                            &:after {
+                                content: '';
+                                position: absolute;
+                                height: 30px;
+                                width: .5px;
+                                background-color: #e79c2c;
+                                top: 75px;
+                                left: 23px;
+                            }
+                        }
+
+                        .button-group {
+
+                            &.type-1 {
+                                position: absolute;
+                                top: -55px;
+                                left: -25px;
+
+                                .button-container {
+                                    padding-top: 5px;
+                                }
+
+                                .heading-group {
+                                    display: flex;
+                                    position: absolute;
+                                    bottom: -70px;
+                                    left: 4px;
+                                    width: 100px;
+
+                                    h4 {
+                                        position: relative;
+                                        left: 10px;
+                                    }
+                                }
+
+                            }
+
+                            &.type-2 {
+                                position: absolute;
+                                top: -55px;
+                                left: auto;
+                                right: -49px;
+
+                                .button-container {
+                                    padding-top: 5px;
+                                }
+
+                                .heading-group {
+                                    display: flex;
+                                    position: absolute;
+                                    top: 60px;
+                                    left: 4px;
+                                    width: 100px;
+
+                                    h4 {
+                                        position: relative;
+                                        left: 10px;
+                                    }
+
+                                    i {
+                                        transform: rotate(180deg);
+                                    }
+                                }
+                            }
+                        }
+
+                        .grid-lines {
+                            position: absolute;
+                            left: 231px;
+                            width: 262px;
+                            height: .5px;
+                            display: flex;
+                            background-color: #e79c2c;
+                            bottom: -18px;
+
+                            span {
+                                &:first-of-type {
+                                    position: absolute;
+                                    width: 0.5px;
+                                    height: 10px;
+                                    background-color: #e79c2c;
+                                    left: 0;
+                                    bottom: 0px;
+
+                                }
+
+                                &:nth-of-type(2) {
+                                    position: absolute;
+                                    width: 0.5px;
+                                    height: 10px;
+                                    background-color: #e79c2c;
+                                    left: 65px;
+                                    bottom: 0px;
+                                }
+
+                                &:nth-of-type(3) {
+                                    position: absolute;
+                                    width: 0.5px;
+                                    height: 10px;
+                                    background-color: #e79c2c;
+                                    left: 130px;
+                                    bottom: 0px;
+                                }
+
+
+                                &:nth-of-type(4) {
+                                    position: absolute;
+                                    width: 0.5px;
+                                    height: 10px;
+                                    background-color: #e79c2c;
+                                    left: 195px;
+                                    bottom: 0px;
+                                }
+
+                                &:last-of-type {
+                                    position: absolute;
+                                    width: 0.5px;
+                                    height: 10px;
+                                    background-color: #e79c2c;
+                                    left: auto;
+                                    right: 0;
+                                    bottom: 0px;
+
+                                }
+
+                            }
+
+                            .exp-icon {
+                                position: absolute;
+                                left: auto;
+                                right: 136px;
+                                height: 80px;
+                                bottom: -75px;
+
+                                &:before {
+                                    content: '';
+                                    position: absolute;
+                                    width: .5px;
+                                    height: 70%;
+                                    background-color: #e79c2c;
+                                    top: 5px;
+                                    z-index: -1;
+                                    left: 17px;
+                                }
+
+                                img {
+                                    width: 32px;
+                                    height: 32px;
+                                    position: relative;
+                                    top: 30px;
+                                }
+
+                                > h4 {
+                                    position: absolute;
+                                    left: -74px;
+                                    width: 100px;
+                                    top: 25px;
+                                }
+                            }
+                            
+                        }
+
+                        .grid-shapes {
+                            position: absolute;
+                            left: 200px;
+                            width: 250px;
+                            display: flex;
+
+                            .shape-column {
+                                margin-right: 25px;
+
+                                &.column-1 {
+                                    position: relative;
+
+                                    .primary-button {
+                                        position: absolute;
+                                        top: -30px;
+                                        left: -5px;
+                                    }
+                                }
+
+                                .square-shape {
+                                    width: 40px;
+                                    height: 40px;
+                                    border: 1px solid #a7a8a9;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    color: #a7a8a9;
+                                    position: relative;
+
+                                    .left-position {
+                                        span {
+                                            &:first-of-type {
+                                                position: absolute;
+                                                width: 0.5px;
+                                                height: 10px;
+                                                background-color: #e79c2c;
+                                                left: -7px;
+                                                bottom: -7px;
+                                            }
+
+                                            &:last-of-type {
+                                                position: absolute;
+                                                height: 0.5px;
+                                                width: 15px;
+                                                background-color: #e79c2c;
+                                                left: -4px;
+                                                bottom: -8px;
+                                            }
+                                        }
+                                    }
+
+                                    .right-position {
+                                        span {
+                                            &:first-of-type {
+                                                position: absolute;
+                                                width: 0.5px;
+                                                height: 10px;
+                                                background-color: #e79c2c;
+                                                left: auto;
+                                                right: -7px;
+                                                bottom: -7px;
+                                            }
+
+                                            &:nth-of-type(2){
+                                                position: absolute;
+                                                height: 0.5px;
+                                                width: 15px;
+                                                background-color: #e79c2c;
+                                                left: auto;
+                                                right: -4px;
+                                                bottom: -8px;
+                                            }
+
+                                            &:last-of-type {
+                                                position: absolute;
+                                                width: 0.5px;
+                                                height: 20px;
+                                                background-color: #e79c2c;
+                                                left: auto;
+                                                right: 7px;
+                                                bottom: -28px;
+                                            }
+                                        }
+                                    }
+
+                                    &::before {
+                                        content: "";
+                                        width: 0.5px;
+                                        height: 30px;
+                                        position: absolute;
+                                        left: 19px;
+                                        bottom: -31px;
+                                        background-color: #e79c2c;
+                                    }
+                                }
+
+                            }
+
+                        }
+
+                        
+                    }
+
+                    &:after {
+                        content: '';
+                        left: auto;
+                        right: -13px;
+                        width: 20px;
+                        height: 100%;
+                        background-color: $mainBackgroundColor;
+                        position: absolute;
+                    }
+                }
+
+            }
+
+            >  .columns {
+                position: absolute;
+                bottom: -25px;
+                left: 22px;
+                text-align: center;
+            
+                i {
+                    margin-top: 5px;
+                }
+                
+            }
+
+            .shape-2 {
+                position: absolute;
+                bottom: -15px;
+                left: 110px;
+                text-align: center;
+                margin: auto;
+
+                h4 {
+                    margin-bottom: 7px;
+                }
+
+                h5 {
+                    margin-bottom: 7px;
+                }
+            
+                .image {
+                    position: relative;
+                    left: 12px;
+                }
+
+            }
+
+            > .heading-group {
+
+                position: absolute;
+                bottom: 45px;
+                left: 210px;
+            
+                >h4:first-of-type {
+                    margin-bottom: 5px;
+                }
+
+                >h4:nth-of-type(2) {
+                   position: absolute;
+                   left: 90px;
+                   width: 100px;
+
+                }
+
+                >h4:last-of-type {
+                    position: absolute;
+                    bottom: -35px;
+                    left: 80px;
+                    width: 100%;
+                }
+            }
+
+
+            .heading-group-type-2 {
+                position: absolute;
+                top: 180px;
+                left: 10px;
+            }
+
+            .rectangle.type-3 {
+                width: 70px;
+                height: 30px;
+                position: absolute;
+                top: auto;
+                bottom: -3px;
+                left: 210px;
+                border: 0.5px solid #fdc616;
+                border-bottom: 0;
+
+                .image:first-of-type {
+                
+                    width: 54px;
+                    height: 54px;
+                    position: relative;
+                    bottom: -4px;
+                    left: 8px;
+            
+                    img {
+                        transform: translate(-6px, 0);
+                    }
+            
+                }
+            
+                .image:nth-of-type(2) {
+                    position: absolute;
+                    top: -16px;
+                    left: 24px;
+                    width: 22px;
+                    height: 22px;
+                }
+            
+                .image:nth-of-type(3) {
+                    position: absolute;
+                    top: auto;
+                    bottom: -11px;
+                    left: auto;
+                    right: -34px;
+                    width: 22px;
+                    height: 22px;
+                    background-color: $mainBackgroundColor;
+                }
+            
+                .image:nth-of-type(4) {
+                    position: absolute;
+                    top: auto;
+                    bottom: -11px;
+                    left: -31px;
+                    width: 22px;
+                    height: 22px;
+                    background-color: $mainBackgroundColor;
+                }
+            }
+
+            .connector.key-1 {
+                position: absolute;
+                bottom: -25px;
+                left: 395px;
+            }
+
+            .rectangle.type-4 {
+                width: 150px;
+                height: 125px;
+                background-color: $mainBackgroundColor;
+                position: absolute;
+                bottom: -60.5px;
+                left: auto;
+                right: 25px;
+                border: 5px solid #e79c2c;
+                border-radius: 3px;
+
+                .top-area {
+                    position: absolute;
+
+                    > .heading-group:first-of-type {
+                        position: absolute;
+                        width: 100px;
+                        top: -60px;
+                        left: 20px;
+                    }
+
+                    .connector {
+                        width: auto;
+                        position: absolute;
+                        left: 10px;
+                        top: -21px;
+                    }
+
+                    .shape-1 {
+                        position: absolute;
+                        left: 60px;
+                        top: -16px;
+                    }
+
+                    .shape-3 {
+                        position: absolute;
+                        left: 100px;
+                        top: -15px;
+                        background-color: $mainBackgroundColor;
+                    }
+
+                }
+
+                .bottom-area {
+                    position: absolute;
+                    bottom: 0;
+
+                    .connector {
+                        width: auto;
+                        position: absolute;
+                        left: 10px;
+                        bottom: -25px;
+                    }
+
+                    .shape-1 {
+                        position: absolute;
+                        left: 53px;
+                        bottom: -18px;
+                        padding: 4px;
+                        background-color: #778183;
+                        border: 1px solid $darkTextColor;
+                        width: 38px;
+                        height: 32px;
+                    }
+
+                    .shape-3 {
+                        position: absolute;
+                        left: 100px;
+                        bottom: -15px;
+                        background-color: $mainBackgroundColor;
+                    }
+
+                    .heading-group {
+                        
+                        > .heading {
+                            position: absolute;
+                            bottom: -70px;
+                            left: 25px;
+                            width: 100px;
+
+                            span:nth-of-type(2) {
+                                position: relative;
+                                left: -10px;
+                            }
+
+                            span:last-of-type {
+                                position: relative;
+                                left: -15px;
+                            }
+                        }
+
+                    }
+
+                    .rectangle {
+                        position: absolute;
+                        bottom: -65px;
+                        left: auto;
+                        right: -135px;  
+
+                        i {
+                            position: absolute;
+                            top: 15px;
+                            left: -21px;
+                        }
+
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            left: -5px;
+                            top: -12px;
+                            width: 0.5px;
+                            height: 40px;
+                            background-color: #e79c2c;
+                        }
+
+                        h4 {
+                            position: relative;
+                            top: 12px;
+                        }
+                    }
+
+                }
+
+                .heading-group-type-3 {
+                    position: absolute;
+                    top: 30px;
+                    left: 7px;
+
+                    h4:first-of-type {
+                        margin-bottom: 7px;
+                    }
+                }
+
+            }
+
+            .reset-buttons {
+                position: absolute;
+                bottom: -65px;
+                left: 100px;
+
+                .reset-button {
+
+                    width: 70px;
+                    height: 25px;
+                    font-weight: 500;
+                    font-family: "Poppins",
+                        sans-serif;
+                    color: #e79c2c;
+                    background-color: #eae2d4;
+
+                    &:not(:last-of-type) {
+                        margin-right: 100px;
+                    }
+
+                }
+            }
+        }
+
+
+        .de-outputs-screen {
+            width: 20%;
+            height: 200px;
+            
+            .output-screen-item {
+                position: relative;
+                left: 20px;
+            }
+        }
+
+    }
+
+}

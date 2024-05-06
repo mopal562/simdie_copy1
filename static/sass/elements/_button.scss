@@ -1,0 +1,44 @@
+.button-container {
+    padding: 10px 20px 0 0;
+}
+
+.primary-button {
+    background-color: $mainBackgroundColor;
+    min-width: 50px;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    color: $darkTextColor;
+    font-weight: 600;
+    font-size: .9rem;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    box-shadow: -0.5px -0.5px 0.25px 0px $greyTextColor, 0.5px 0.5px 0.25px 0px $darkTextColor;
+    cursor: pointer;
+    transition: all .2s linear;
+    text-decoration: none;
+}
+
+.button-icon,
+.image {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    z-index: 2;
+
+    &.has-transparent {
+        background-color: transparent !important;
+    }
+
+    &.flip-h {
+        transform: rotate(180deg);
+    }
+
+    &.flip-right {
+        transform: rotate(90deg);
+    }
+}
+
+.button-icon {
+    cursor: pointer;
+}

@@ -1,0 +1,636 @@
+// HELPER CLASSES
+.heading {
+    color: $greyTextColor;
+
+    &.has-sm-size {
+        font-size: .83rem;
+    }
+    
+    &.has-normal-size {
+        font-size: .93rem;
+    }
+
+    &.has-large-size {
+        font-size: 1.1rem;
+    }
+
+
+    &.has-green-color  {
+        color: $greenTextColor;
+    }
+
+    &.has-font-weight-500 {
+        font-weight: 500;
+    }
+
+
+    &.has-font-weight-600 {
+        font-weight: 600;
+    }
+}
+
+
+// MARGIN
+.mr-3 {
+    margin-right: 3px;
+}
+
+.mb-3 {
+    margin-bottom: 3px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+// PADDING
+.pt-10 {
+    padding-top: 10px;
+}
+
+// TEXT
+.is-uppercase-text {
+    text-transform: uppercase;
+}
+
+.has-text-centered {
+    text-align: center;
+}
+
+// FORMAT & DISPLAY
+.is-inline-block {
+    display: inline-block;
+}
+
+// WIDTH
+
+.is-20x20 {
+    width: 20px;
+    height: 20px;
+}
+
+.is-26x26 {
+    width: 26px;
+    height: 26px;
+}
+
+.is-36x36 {
+    width: 36px;
+    height: 36px;
+}
+
+.is-48x48 {
+    width: 48px;
+    height: 48px;
+}
+
+
+
+.image {
+
+
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+// SHAPES
+.map-rectangle {
+    border: .5px solid $yellowLine;
+    border-left: none;
+    width: 120px;
+}
+
+.connector {
+    position: relative;
+    width: 120px;
+
+    &.with-line {
+
+        span.map-line {
+            height: .5px;
+            width: 120px;
+            background-color: $yellowLine;
+            display: inline-block;
+        }
+
+        .button-icon {
+            left: 75px;
+            position: absolute;
+            top: -2px;
+        }
+
+    }
+}
+
+.battery-status {
+
+    width: 13px;
+    height: 50px;
+    padding: 2px;
+    background-color: $darkTextColor;
+    position: relative;
+
+    .charge-status {
+        position: absolute;
+        top: auto;
+        bottom: 2px;
+        left: 2.25px;
+        width: 65%;
+
+        &[data-charge="100"] {
+            height: 93%;
+            background-color: $greenTextColor;
+        }
+
+        &[data-charge="90"] {
+            height: 90%;
+            background-color: $greenTextColor;
+        }
+
+        &[data-charge="80"] {
+            height: 80%;
+            background-color: $greenTextColor;
+        }
+
+        &[data-charge="70"] {
+            height: 70%;
+            background-color: $greenTextColor;
+        }
+
+        &[data-charge="60"] {
+            height: 60%;
+            background-color: $greenTextColor;
+        }
+
+        &[data-charge="50"] {
+            height: 50%;
+            background-color: #fdc616;
+        }
+
+        &[data-charge="40"] {
+            height: 40%;
+            background-color: #fdc616;
+        }
+
+        &[data-charge="30"] {
+            height: 30%;
+            background-color: #fdc616;
+        }
+
+        &[data-charge="20"] {
+            height: 20%;
+            background-color: #f4133c;
+        }
+
+        &[data-charge="10"] {
+            height: 10%;
+            background-color: #f4133c;
+        }
+
+        &[data-charge="0"] {
+            height: 0%;
+        }
+    }
+
+    span:first-of-type {
+        width: 6px;
+        height: 2px;
+        background-color: red;
+        position: absolute;
+        top: -2px;
+        left: 4px;
+        border: 1px solid $darkTextColor;
+    }
+
+    span:nth-of-type(2) {
+        width: 9px;
+        height: 7px;
+        background-color: $greyTextColor;
+        position: absolute;
+        top: 8px;
+        left: auto;
+        right: -8px;
+        border: 1px solid $darkTextColor;
+    }
+
+    span:last-of-type{
+        width: 9px;
+        height: 7px;
+        background-color: $greyTextColor;
+        position: absolute;
+        top: 38px;
+        left: auto;
+        right: -8px;
+        border: 1px solid $darkTextColor;
+    }
+
+}
+
+.battery-container {
+    .image {
+        position: relative;
+
+        .battery-shape {
+            position: absolute;
+            
+            &.battery-left {
+                left: -17px;
+            }
+
+            &.battery-right {
+                left: auto;
+                right: -17px;
+            }
+
+        }
+    }
+}
+
+.battery-shape {
+    position: relative;
+    width: 18px;
+    height: 35px;
+    background-color: $darkTextColor;
+    border: 1px solid $mainBackgroundColor;
+    border-radius: 3px;
+    top: -4px;
+
+    span:first-of-type {
+        width: 6px;
+        height: 4px;
+        position: absolute;
+        top: -3px;
+        left: 5px;
+        border: 1px solid $darkTextColor;
+        border-bottom: 0;
+        background-color: $darkTextColor;
+    }
+
+    .charger-status {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 1px solid $darkTextColor;
+        border-radius: 3px;
+
+        &.has-green,
+        &[data-charge="100"].has-green + span {
+            background-color: #09fc07;
+        }
+
+        &.has-blue,
+        &[data-charge="100"].has-blue+span {
+            background-color: #2d91ff;
+        }
+
+        &.has-light-blue,
+        &[data-charge="100"].has-light-blue+span {
+            background-color: #18c1fa;
+        }
+
+        &[data-charge="90"] {
+            height: 90%;
+        }
+
+        &[data-charge="80"] {
+            height: 80%;
+        }
+
+        &[data-charge="70"] {
+            height: 70%;
+        }
+
+        &[data-charge="60"] {
+            height: 60%;
+        }
+
+        &[data-charge="50"] {
+            height: 90%;
+        }
+
+        &[data-charge="40"] {
+            height: 80%;
+        }
+
+        &[data-charge="30"] {
+            height: 70%;
+        }
+
+        &[data-charge="20"] {
+            height: 20%;
+        }
+
+        &[data-charge="10"] {
+            height: 10%;
+        }
+
+        &[data-charge="0"] {
+            height: 0%;
+        }
+
+    }
+
+}
+
+// OUTPUT SCREEN
+.output-screen-item {
+        box-shadow: -0.5px -0.5px 0.25px 0px #b9b9b9,
+            0.5px 0.5px 0.25px 0px #0E0E0E,
+            2.5px 2.5px 4.25px 1px #0E0E0E;
+        width: 160px;
+        background-color: #e4cea3;
+        padding-bottom: 7px;
+
+        h5 {
+            font-size: .85rem;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .screen {
+            width: 150px;
+            margin-left: 5px;
+            margin-right: 5px;
+            padding: 10px 15px;
+            background: #d8d8d8;
+            box-shadow: -0.5px -0.5px 0.25px 0px #0e0e0e ,
+                    0.5px 0.5px 0.25px 0px #b9b9b9;
+
+            
+            .flex {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 60px;
+
+                h3 {
+                    font-weight: 600;
+                    font-size: 1.05rem;
+                    color: #337039;
+                }
+                
+                h6 {
+                    font-weight: 500;
+                    font-size: .79rem;
+                    color: $darkTextColor;
+                }
+            }
+        }
+}
+
+// MODAL 
+.modal {
+    background-color: rgba( $darkTextColor, .8);
+    position: fixed;
+    height: 100%;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+
+    &.is-hidden {
+        display: none;
+    }
+
+    &.active {
+
+        .modal-content {
+
+            animation-duration: .5s;
+            animation-fill-mode: both;
+            transition: all 0.3s ease-in-out;
+            transform: translate(-50%, -50%);
+            display: block;
+            animation-name: fadeIn;
+            pointer-events: auto;
+            
+        }
+
+    }
+
+    
+
+    .modal-content {
+
+        transition: all .3s ease;
+        background-color: darkgrey;
+        width: 500px;
+        position: absolute;
+        border-radius: 3px;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        padding: 0 20px  10px;
+
+        .modal-header {
+            padding: 10px 0;
+            position: relative;
+            
+            
+            h2 {
+                color: $darkTextColor;
+                font-weight: 500;
+                border-bottom: 1px solid $darkTextColor;
+                margin-top: 10px;
+                padding-bottom: 15px;
+                font-size: 1.35rem;
+            }
+
+            .close-modal {
+                position: absolute;
+                left: auto;
+                right: 5px;
+                top: 18px;
+                background-color: #f4133c;
+                border: none;
+                color: #fff;
+                font-size: 1.5rem;
+                border-radius: 3px;
+                z-index: 22;
+                cursor: pointer;
+            }
+        }
+
+        .modal-body {
+            background-color: grey;
+            margin-top: 10px;
+            border: 1px solid $darkTextColor;
+            padding: 10px;
+
+            ul {
+                padding: 0;
+                margin: 0;
+                list-style: none;
+
+            }
+
+            .table-head {
+                padding-top: 10px;
+                margin-bottom: 20px;
+
+                ul  li {
+                    display: flex;
+
+                    span {
+                        font-weight: 500;
+                        text-transform: capitalize;
+                    }
+
+                    span:first-of-type {
+                        width: 40px;
+                        margin-right: 20px;
+                    }
+                
+                }
+            }
+
+            .table-body {
+
+                ul li {
+                    display: flex;
+
+                    margin-bottom: 7px;
+            
+                    span {
+                        font-weight: 500;
+                        text-transform: capitalize;
+                    }
+            
+                    span:first-of-type {
+                        width: 40px;
+                        margin-right: 20px;
+                        background-color: #337039;
+                        color: #fff;
+                        text-align: center;
+                    }
+
+                    div {
+                        font-weight: 500;
+                        text-transform: capitalize;
+                        background-color: #a8a8a8;
+                        flex-grow: 1;
+                        padding: 0 10px;
+                        box-shadow: -0.5px -0.5px 0.25px 0px #b9b9b9,
+                            0.5px 0.5px 0.25px 0px #0e0e0e;
+                            font-size: .93rem;
+
+                        a {
+                            color: $darkTextColor;
+                            text-decoration: none;
+                        }
+                    }
+
+                   
+            
+                }
+
+                ul.group {
+                    margin-bottom: 25px;
+                }
+            }
+        }
+    }
+
+    &.modal-general-variable {
+        .close-modal {
+            top: 38px !important;
+        }
+
+        .modal-content {
+            background-color: #1e2631;
+            width: 850px;
+
+            .modal-header {
+                
+                    h2 {
+                        font-size: 1.25rem;
+                        font-weight: 500;
+                        padding: 20px;
+                        color: #fff;
+                        text-transform: uppercase;
+                        border-bottom: 1px solid #656262;
+                    }
+            }
+
+            .modal-body {
+                    background-color: #1e2631;
+                    border: none;
+            }
+        }
+    }
+}
+
+.animated {
+    animation-duration: .8s;
+    animation-fill-mode: both;
+    transition: all 0.3s ease-in-out;
+    transform: translate(-50%, -50%);
+    display: block;
+
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+    pointer-events: auto;
+    transform: translate(-50%, -50%);
+
+}
+
+@keyframes fadeIn {
+
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+
+}
+
+
+// TIMER VALUE  COMPONENT
+
+.timer-value-output {
+    position: relative;
+    width: 80px;
+
+    .value-data-timer {
+
+        position: absolute;
+        background-color: #ECF654;
+        border-radius: 3px;
+        width: 50%;
+        text-align: center;
+        font-weight: 500;
+        left: 25%;
+        top: 24px;
+        font-size: .85rem;
+    }
+
+}
+
+
+
+// FOR DEBUGGING
+.debug {
+    border: 3px solid red !important; 
+    background-color: red !important;
+}
