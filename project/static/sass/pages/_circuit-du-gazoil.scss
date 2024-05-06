@@ -1,0 +1,763 @@
+.circuit-du-gazoil {
+
+    display: flex;
+    margin-bottom: 75px;
+    padding-top: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .de-section {
+
+        width: 1140px;
+        height: 600px;
+        display: flex;
+        margin: auto;
+
+        .caisse-jornaliare {
+            background-color: $mainBackgroundColor;
+            height: 390px;
+            width: 220px;
+            border: 5px solid #e79c2c;
+            border-right: 0;
+            position: relative;
+            margin-left: 100px;
+
+            > h4:first-of-type {
+                position: absolute;
+                top: -50px;
+                left: -20px;
+            }
+
+            > .la-long-arrow-alt-left {
+                position: absolute;
+                top: -22px;
+                left: 150px;
+            }
+
+            .column.type-1 {
+                position: absolute;
+                top: -70px;
+                left: auto;
+                right: -150px;
+                z-index: 9;
+                background-color: $mainBackgroundColor;
+                padding-bottom: 7px;
+
+            }
+
+            >.la-long-arrow-alt-right {
+                position: absolute;
+                bottom: 3px;
+                left: 150px;
+            }
+
+            .exp-battery {
+                position: absolute;
+                bottom: -40px;
+                left: -45px;
+
+                > .heading {
+                    position: absolute !important;
+                    width: 200px !important;
+                    left: -100px;
+                    top: 60px !important;
+                }
+
+                &:after {
+                    content: "";
+                    position: absolute;
+                    height: 0.5px;
+                    width: 10px;
+                    background-color: #e79c2c;
+                    bottom: 10px;
+                    z-index: 2;
+                    right: -4px;
+                    left: auto;
+                }
+        
+                .image.exp-icon {
+                    position: relative;
+                    z-index: 22;
+        
+                    >img {
+                        width: 75px;
+                        height: auto;
+                    }
+        
+                    .battery-status {
+                        position: absolute;
+                        top: 3px;
+                        left: -18px;
+                        height: 175px;
+        
+                        span:last-of-type {
+                            top: 150px;
+                        }
+                    }
+                }
+        
+                .heading {
+                    background-color: $mainBackgroundColor;
+                    width: 40px;
+                    position: relative;
+                    z-index: 1;
+                    top: 3px;
+                }
+        
+        
+            }
+
+            &:after {
+                content: "";
+                top: -5px;
+                left: auto;
+                right: -110px;
+                height: 5px;
+                width: 100%;
+                background-color: #e79c2c;
+                position: absolute;
+            }
+
+            .timer-value-output.type-1 {
+                position: absolute;
+                top: -5px;
+                left: 60px;
+                transform: rotate(180deg);
+
+                .value-data-timer {
+                    transform: rotate(180deg);
+                }
+            }
+
+
+            .timer-value-output.type-2 {
+                position: absolute;
+                bottom: -5px;
+                left: 60px;
+            }
+        }
+
+
+        .de-map {
+            width: 100%;
+            height: 390px;
+            border-right: 5px solid #e79c2c;
+            border-bottom: 5px solid #e79c2c;
+            border-bottom-right-radius: 3px;
+            position: relative;
+
+            .rectangle {
+
+                &.shape-1 {
+                    width: calc(100% - 106px);
+                    margin-left: 106px;
+                    height: 130px;
+                    background-color: $mainBackgroundColor;
+                    border: 5px solid #e79c2c;
+                    border-top: none;
+                    border-right: none;
+                    position: relative;
+
+
+                    .shape-3 {
+                        width: 575px;
+                        height: 70px;
+                        position: absolute;
+                        bottom: 0;
+                        left: 100px;
+
+                        .grid-lines {
+                            position: absolute;
+                            left: 231px;
+                            width: 262px;
+                            height: .5px;
+                            display: flex;
+                            background-color: #e79c2c;
+                            bottom: -18px;
+
+                            span {
+                                &:first-of-type {
+                                    position: absolute;
+                                    width: 0.5px;
+                                    height: 10px;
+                                    background-color: #e79c2c;
+                                    left: 0;
+                                    bottom: 0px;
+
+                                }
+
+                                &:nth-of-type(2) {
+                                    position: absolute;
+                                    width: 0.5px;
+                                    height: 10px;
+                                    background-color: #e79c2c;
+                                    left: 65px;
+                                    bottom: 0px;
+                                }
+
+                                &:nth-of-type(3) {
+                                    position: absolute;
+                                    width: 0.5px;
+                                    height: 10px;
+                                    background-color: #e79c2c;
+                                    left: 130px;
+                                    bottom: 0px;
+                                }
+
+
+                                &:nth-of-type(4) {
+                                    position: absolute;
+                                    width: 0.5px;
+                                    height: 10px;
+                                    background-color: #e79c2c;
+                                    left: 195px;
+                                    bottom: 0px;
+                                }
+
+                                &:last-of-type {
+                                    position: absolute;
+                                    width: 0.5px;
+                                    height: 10px;
+                                    background-color: #e79c2c;
+                                    left: auto;
+                                    right: 0;
+                                    bottom: 0px;
+
+                                }
+
+                            }
+
+                            .exp-icon {
+                                position: absolute;
+                                left: auto;
+                                right: 136px;
+                                height: 80px;
+                                bottom: -75px;
+
+                                &:before {
+                                    content: '';
+                                    position: absolute;
+                                    width: .5px;
+                                    height: 70%;
+                                    background-color: #e79c2c;
+                                    top: 5px;
+                                    z-index: -1;
+                                    left: 17px;
+                                }
+
+                                img {
+                                    width: 32px;
+                                    height: 32px;
+                                    position: relative;
+                                    top: 30px;
+                                }
+
+                                > h4 {
+                                    position: absolute;
+                                    left: -43px;
+                                    width: 150px;
+                                    top: 75px;
+                                }
+                            }
+                            
+                        }
+
+
+                        .top-shape {
+                            position: absolute;
+                            width: 50px;
+                            height: 130px;
+                            bottom: 10px;
+                            left: 160px;
+                            border-left: 1px solid #0e0e0e;
+                            border-bottom: 1px solid #0e0e0e;
+
+                            > h4 {
+                                background-color: #217029;
+                                width: 110px;
+                                padding: 5px;
+                                top: -10px;
+                                left: -50px;
+                                position: absolute;
+                            }
+
+                            .la-angle-right {
+                                position: absolute;
+                                bottom: -8px;
+                                left: auto;
+                                right: -10px; 
+                            }
+
+                        }
+
+                        .grid-shapes {
+                            position: absolute;
+                            left: 200px;
+                            width: 400px;
+                            display: flex;
+
+                            .shape-column {
+                                margin-right: 25px;
+
+                                &.column-1 {
+                                    position: relative;
+                                }
+
+                                .square-shape {
+                                    width: 40px;
+                                    height: 40px;
+                                    border: 1px solid #a7a8a9;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    color: #a7a8a9;
+                                    position: relative;
+
+                                    .left-position {
+                                        span {
+                                            &:first-of-type {
+                                                position: absolute;
+                                                width: 0.5px;
+                                                height: 10px;
+                                                background-color: #e79c2c;
+                                                left: -7px;
+                                                bottom: -7px;
+                                            }
+
+                                            &:last-of-type {
+                                                position: absolute;
+                                                height: 0.5px;
+                                                width: 15px;
+                                                background-color: #e79c2c;
+                                                left: -4px;
+                                                bottom: -8px;
+                                            }
+                                        }
+                                    }
+
+                                    .right-position {
+                                        span {
+                                            &:first-of-type {
+                                                position: absolute;
+                                                width: 0.5px;
+                                                height: 10px;
+                                                background-color: #e79c2c;
+                                                left: auto;
+                                                right: -7px;
+                                                bottom: -7px;
+                                            }
+
+                                            &:nth-of-type(2){
+                                                position: absolute;
+                                                height: 0.5px;
+                                                width: 15px;
+                                                background-color: #e79c2c;
+                                                left: auto;
+                                                right: -4px;
+                                                bottom: -8px;
+                                            }
+
+                                            &:last-of-type {
+                                                position: absolute;
+                                                width: 0.5px;
+                                                height: 20px;
+                                                background-color: #e79c2c;
+                                                left: auto;
+                                                right: 7px;
+                                                bottom: -28px;
+                                            }
+                                        }
+                                    }
+
+                                    &::before {
+                                        content: "";
+                                        width: 0.5px;
+                                        height: 30px;
+                                        position: absolute;
+                                        left: 19px;
+                                        bottom: -31px;
+                                        background-color: #e79c2c;
+                                    }
+                                }
+
+                            }
+
+                        }
+
+                        
+                    }
+
+                    &:after {
+                        content: '';
+                        left: auto;
+                        right: -13px;
+                        width: 20px;
+                        height: 100%;
+                        background-color: $mainBackgroundColor;
+                        position: absolute;
+                    }
+                }
+
+            }
+
+
+            .rectangle.type-3 {
+                width: 150px;
+                height: 125px;
+                background-color: $mainBackgroundColor;
+                position: absolute;
+                bottom: -60.5px;
+                left: 25px;
+                border: 5px solid #e79c2c;
+                border-radius: 3px;
+
+                .top-area {
+                    position: absolute;
+
+
+                    .connector {
+                        width: auto;
+                        position: absolute;
+                        left: 10px;
+                        top: -21px;
+                    }
+
+                    .shape-1 {
+                        position: absolute;
+                        left: 60px;
+                        top: -16px;
+                    }
+
+                    .shape-3 {
+                        width: auto;
+                        position: absolute;
+                        left: 95px;
+                        top: -21px;
+                    }
+
+                }
+
+                > h4.heading:first-of-type  {
+                    position: absolute;
+                    top: 40px;
+                    left: 37px;
+                    text-align: center;
+                }
+
+                > h5.heading:last-of-type {
+
+                    position: absolute;
+                    top: 150px;
+                    left: 31px;
+                    text-align: center;
+
+                }
+
+                .bottom-area {
+                    position: absolute;
+                    bottom: 0;
+
+                    .connector {
+                        width: auto;
+                        position: absolute;
+                        left: 10px;
+                        bottom: -25px;
+                    }
+
+                    .shape-1 {
+                        position: absolute;
+                        left: 58px;
+                        bottom: -15px;
+                    }
+
+                    .shape-3 {
+                        width: auto;
+                        position: absolute;
+                        left: 95px;
+                        bottom: -25px;
+                    }
+
+
+                    .rectangle {
+                        position: absolute;
+                        bottom: -65px;
+                        left: auto;
+                        right: -135px;
+
+                        i {
+                            position: absolute;
+                            top: 15px;
+                            left: -21px;
+                        }
+
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            left: -5px;
+                            top: -12px;
+                            width: 0.5px;
+                            height: 40px;
+                            background-color: #e79c2c;
+                        }
+
+                        h4 {
+                            position: relative;
+                            top: 12px;
+                        }
+                    }
+
+                }
+
+
+
+            }
+
+
+            .rectangle.type-4 {
+                width: 150px;
+                height: 125px;
+                background-color: $mainBackgroundColor;
+                position: absolute;
+                bottom: -60.5px;
+                left: auto;
+                right: 25px;
+                border: 5px solid #e79c2c;
+                border-radius: 3px;
+
+                .top-area {
+                    position: absolute;
+
+
+                    .connector {
+                        width: auto;
+                        position: absolute;
+                        left: 10px;
+                        top: -21px;
+                    }
+
+                    .shape-1 {
+                        position: absolute;
+                        left: 60px;
+                        top: -16px;
+                    }
+
+                    .shape-3 {
+                        width: auto;
+                        position: absolute;
+                        left: 95px;
+                        top: -21px;
+                    }
+
+                }
+
+                > h4.heading:first-of-type {
+                    position: absolute;
+                    top: 40px;
+                    left: 31px;
+                    text-align: center;
+                }
+
+                > h5.heading:last-of-type {
+                    
+                    position: absolute;
+                    left: 31px;
+                    text-align: center;
+                    top: 150px;
+                    
+                }
+
+
+
+                .bottom-area {
+                    position: absolute;
+                    bottom: 0;
+
+                    .connector {
+                        width: auto;
+                        position: absolute;
+                        left: 10px;
+                        bottom: -25px;
+                    }
+
+                    .shape-1 {
+                        position: absolute;
+                        left: 58px;
+                        bottom: -15px;
+                    }
+
+                    .shape-3 {
+                        width: auto;
+                        position: absolute;
+                        left: 95px;
+                        bottom: -25px;
+                    }
+
+
+                    .rectangle {
+                        position: absolute;
+                        bottom: -65px;
+                        left: auto;
+                        right: -135px;  
+
+                        i {
+                            position: absolute;
+                            top: 15px;
+                            left: -21px;
+                        }
+
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            left: -5px;
+                            top: -12px;
+                            width: 0.5px;
+                            height: 40px;
+                            background-color: #e79c2c;
+                        }
+
+                        h4 {
+                            position: relative;
+                            top: 12px;
+                        }
+                    }
+
+                }
+
+               
+
+            }
+
+            >.map-box {
+                position: absolute;
+                left: auto;
+                right: 300px;
+                bottom: 0;
+
+                .rectangle-with-icon:first-of-type {
+                    width: 70px;
+                    height: 20px;
+                    border: .5px solid $yellowLine;
+                    position: relative;
+
+                    .image {
+                        margin: auto;
+                        position: relative;
+                        top: -15px;
+                    }
+
+
+
+                }
+
+                .rectangle-with-icon:last-of-type {
+                    width: 70px;
+                    height: 45px;
+                    position: relative;
+                    border-left: .5px solid $yellowLine;
+                    border-right: .5px solid $yellowLine;
+
+                    .image:first-of-type {
+                        margin: auto;
+                        position: relative;
+                        top: -10px;
+                    }
+
+                    .image:last-of-type {
+                        margin-left: 2px;
+                        position: relative;
+                        z-index: 2;
+                        left: 8px;
+
+                        img {
+                            transform: translate(-7px, 0);
+                        }
+                    }
+
+                }
+
+                > h3 {
+                    position: absolute;
+                    bottom: 0;
+                    left: -175px;
+                    width: 100px;
+                }
+
+                > h4 {
+                    position: absolute;
+                    bottom: -65px;
+                    left: -10px;
+                    width: 200px;
+                }
+            }
+
+        }
+
+        .rectangle.right-column {
+            width: 180px;
+            height: 200px;
+            background-color: $mainBackgroundColor;
+            margin-top: 100px;
+            border-bottom: 5px solid #e79c2c;
+
+            > h3:first-of-type {
+                position: relative;
+                top: 35px;
+                left: 15px;
+            }
+
+            .heading-container {
+
+                position: relative;
+                padding-top: 40px;
+                top: 30px;
+
+                span {
+                    width: 70px;
+                    height: 1px;
+                    background-color: #0e0e0e;
+                    position: relative;
+                    margin-left: 10px;
+                    display: block;
+                    margin-bottom: 40px;
+
+                    i {
+                        position: absolute;
+                        top: -7px;
+                        left: -9px;
+                    }
+                }
+
+                > .heading {
+                    position: absolute;
+                    top: 23px;
+                    left: auto;
+                    right: -50px;
+                    text-align: center;
+                }
+
+            }
+
+            .bottom-area {
+                position: relative;
+
+                > .image {
+                    position: absolute;
+                    bottom: -98.5px;
+                    left: 40px;
+                    width: 42px;
+                    height: 28px;
+                }
+
+                > .heading {
+                    position: absolute;
+                        bottom: -110px;
+                        left: 140px;
+                        width: 100px
+                }
+            }
+
+        }
+
+    }
+
+}

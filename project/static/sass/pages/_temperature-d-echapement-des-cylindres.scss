@@ -1,0 +1,179 @@
+.temperature-d-echapement-des-cylindres {
+
+    .cylinders-bars {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        width: 80%;
+        margin: auto;
+
+        .cylinder-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-grow: 1;
+
+            .line {
+                width: 50px;
+                height: 275px;
+                background-color: #90E4E7;
+                display: inline-block;
+                border: 8px solid #4fa8ac;
+                border-bottom: 0;
+                border-radius: 75px;
+                border-bottom-right-radius: 0;
+                border-bottom-left-radius: 0;
+                position: relative;
+                &::before {
+                    content: "";
+                    height: 15px;
+                    background: #90E4E7;
+                    width: 100%;
+                    position: absolute;
+                    bottom: -3px;
+                    left: 0px;
+                    z-index: 1;
+                    border-radius: 150px;
+    
+                }
+
+                .progress-value {
+                    width: 100%;
+                    background-color: #3f22e5;
+                    bottom: -5%;
+                    left: 0;
+                    position: absolute;
+                    z-index: 3;
+                    border-radius: 25px;
+                    border-bottom-right-radius: 0;
+                    border-bottom-left-radius: 0;
+                    transition: all .3s ease-in-out;
+
+                    &[data-value="0"] {
+                        height: 5%;
+                    }
+
+                    &[data-value="10"] {
+                        height: 15%;
+                    }
+
+                    &[data-value="20"] {
+                        height: 25%;
+                    }
+
+                    &[data-value="30"] {
+                        height: 35%;
+                    }
+                    &[data-value="40"] {
+                        height: 45%;
+                    }
+                    &[data-value="50"] {
+                        height: 55%;
+                    }
+                    &[data-value="60"] {
+                        height: 65%;
+                    }
+                    &[data-value="70"] {
+                        height: 75%;
+                    }
+
+                    &[data-value="80"] {
+                        height: 85%;
+                    }
+
+                    &[data-value="90"] {
+                        height: 95%;
+                    }
+
+                    &[data-value="100"] {
+                        height: 105%;
+                    }
+                }
+
+                .lines-degree {
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    width: 10px;
+                    height: 100%;
+                    z-index: 4;
+
+                    > span {
+
+                        margin-bottom: 3px;
+                        display: inline-block;
+                        height: 2px;
+                        background-color: #314a63;
+
+                        &:nth-child(odd) {
+                            display: inline-block;
+                            width: 10px;
+                        }
+                    
+                        &:nth-child(even) {
+                            display: inline-block;
+                            width: 5px;
+                        }
+
+                    }
+                }
+
+                .lines-degree-value {
+                    position: absolute;
+                    left: 0;
+                    height: 100%;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    left: -50px;
+                    font-size: .93rem;
+                    font-weight: 500;
+                    padding-top: 65px;
+                }
+            }
+
+            .base {
+
+                width: 80px;
+                height: 80px;
+                background-color: #3f22e5;
+                display: inline-block;
+                border: 8px solid #4fa8ac;
+                border-radius: 50%;
+                position: relative;
+                top: -10px;
+                margin-bottom: 45px;
+
+                h4 {
+                    font-weight: 500;
+                    font-size: .93rem;
+                    position: absolute;
+                    bottom: -40px;
+                    left: 0;
+                    width: 86px;
+                }
+
+                &:before {
+                    content: '';
+                    position: absolute;
+                    width: 20px;
+                    height: 20px;
+                    background-color: #cecefb;
+                    bottom: 10px;
+                    left: auto;
+                    right: 10px;
+                    border-radius: 50%;
+                    opacity: .4;
+
+                }
+                
+
+               
+            }
+
+        }
+
+    }
+
+}

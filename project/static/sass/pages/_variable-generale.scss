@@ -1,0 +1,130 @@
+.variable-generale {
+
+    background-color: #1e2631d6;
+
+
+    .header-modal {
+        border-bottom: 1px solid #656262;
+
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            padding: 20px;
+            color: #fff;
+            text-transform: uppercase;
+        }
+       
+    }
+    .cards-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+    }
+  
+ 
+    .card-component {
+        background-color: #282f3c;
+        border-radius: 5px;
+        padding: 15px;
+        width: 45%;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+
+        .card-icon {
+            width: 48px;
+            height: 48px;
+            box-shadow: 0 3px 6px rgb(40 40 40 / 16%), 0 3px 6px rgba(0, 0, 0, 0.23);
+            padding: 10px;
+            border-radius: 3px;
+            background: #ff8a856e;
+            margin-inline: auto;
+        }
+
+        .card-body {
+            flex-grow: 1;
+            margin-top: 5px;
+
+            .card-content {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                div {
+                    font-weight: 700;
+                    color: #fff;
+                    font-size: 1.5rem;
+                    &:first-of-type {
+                        margin-right: 7px;
+                    }
+                }
+            }
+        }
+
+        &.item-2 .card-icon {
+            background: #fec00054 !important;
+        }
+
+        &.item-3 .card-icon {
+            background: #b6def066 !important;
+        }
+
+
+        &.item-4 .card-icon {
+            background: #b6def066 !important;
+        }
+
+        &.item-5 .card-icon {
+            background: #fec00054 !important;
+        }
+
+        &.item-6 .card-icon {
+            background: #04c9af4f !important;
+        }
+
+        &.item-7 .card-icon,
+        &.item-8 .card-icon,
+        &.item-9 .card-icon,
+        &.item-10 .card-icon {
+            background: #daf3fd4f !important;
+        }
+
+        .card-title {
+
+            font-size: .93rem;
+            color: #c4c5c9;
+            font-weight: 300;
+            text-transform: uppercase;
+        }
+
+        .card-value {
+
+            font-weight: 700;
+            color: #fff;
+            font-size: 1.5rem;
+        }
+
+        .card-cta {
+            margin-top: 15px;
+            a {
+                color: #fff;
+                text-decoration: none;
+                padding: 7px 20px;
+                background-color: #4c5461;
+                border-radius: 25px;
+                width: 100px;
+                display: inline-block;
+                text-align: center;
+                font-weight: 400;
+                font-size: .85rem;
+            }
+        }
+
+    }
+
+
+}

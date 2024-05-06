@@ -1,0 +1,199 @@
+header {
+
+    margin-bottom: 15px;
+
+    .buttons-container {
+
+        .flex {
+            display: flex;
+
+            .primary-button.wide-button {
+
+                min-width: 160px;
+                display: flex;
+                height: 50px;
+                align-items: center;
+                justify-content: center;
+                text-transform: capitalize;
+                font-weight: 500;
+                margin-right: 10px;
+
+                &.heading-text {
+                    flex-grow: 1;
+                }
+
+            }
+
+            .timer-button {
+                flex-direction: column;
+                
+                span {
+                    display: block;
+
+                    &:first-of-type {
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        font-size: 1.05rem;
+                    }
+
+                    &:last-of-type {
+                        color: $yellowLine;
+                    }
+                }
+            }
+
+            .danger-text {
+                text-transform: uppercase !important;
+                color: #921d1d;
+            }
+
+            .fuel.heading-text {
+
+                h1 {
+                    text-transform: capitalize;
+                    font-weight: 600;
+                    font-size: 1.2rem;
+                }
+
+            }
+
+            .alarms {
+
+                .alarms-heading {
+
+                    width: 80px;
+                    position: relative;
+
+                    &:before {
+                        content: '';
+                        display: inline-block;
+                        position: absolute;
+                        width: 0.5px;
+                        height: 49px;
+                        left: auto;
+                        right: 0;
+                        top: -15px;
+                        background-color: #b9b9b9;
+                    }
+
+                }
+
+                .alarms-elements {
+                    width: calc(100% - 70px);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    > .column {
+                
+                        flex-grow: 1;
+                        text-align: center;
+                    }
+
+                    .alarm-icon {
+                      
+                        display: inline-block;
+
+                        i {
+                            font-weight: 700;
+                            font-size: 1.45rem;
+                            color: #921d1d;;
+                        }
+
+                        &.has-list {
+                            cursor: pointer;
+                            position: relative;
+
+                            &:hover {
+                                .fire-list {
+                                    opacity: 1;
+                                    transform: translateY(5px);
+                                    z-index: 1;
+                                    pointer-events: all;
+                                }
+                            }
+
+                            .fire-list {
+                                position: absolute;
+                                background-color: white;
+                                display: flex;
+                                z-index: 2;
+                                padding: 10px;
+                                left: -24px;
+                                bottom: -32px;
+                                border-radius: 3px;
+                                transform: translateY(40px);
+                                z-index: -1;
+                                pointer-events: none;
+                                opacity: 0;
+                                transition: all .3s linear;
+
+                                &:after {
+                                    content: '';
+                                    position: absolute;
+                                    top: -16px;
+                                    left: 27px;
+                                    width: 10px;
+                                    height: 10px;
+                                    border-width: 10px;
+                                    border-style: solid;
+                                    border-color: transparent transparent rgb(255, 255, 255) transparent;
+                                    z-index: -1;
+                                }
+
+                                span {
+
+                                    width: 16px;
+                                    height: 16px;
+                                    display: inline-block;
+                                    border-radius: 50%;
+                                    cursor: pointer;
+                                    border: 1px solid #b9b9b9;
+
+                                    &.blue {
+                                        background-color: rgb(8, 8, 186);
+                                    }
+
+                                    &.white {
+                                        background-color: white;
+                                    }
+
+                                    &.black {
+                                        background-color: black;
+                                    }
+                                 
+
+                                    &:not(:last-of-type) {
+                                        margin-right: 5px;
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+
+                    .text-icon{
+                        font-weight: 700;
+                        font-size: 1.25rem;
+                        color: #921d1d;;
+
+                        
+                    }
+
+                }
+
+            }
+
+            .logo-image {
+                color: $yellowLine;
+                text-transform: uppercase !important;
+            }
+
+
+
+
+        }
+
+    }
+
+}

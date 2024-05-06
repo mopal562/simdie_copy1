@@ -1,0 +1,2036 @@
+main#moteur-de-propultion {
+
+    padding: 10px;
+
+    .oil-system {
+
+        display: flex;
+
+
+        .fo-pump {
+            padding-bottom: 66px;
+
+            >.heading:first-of-type {
+                margin-left: 150px;
+                margin-top: 25px;
+                margin-bottom: 16.5px;
+            }
+
+            >.map-box {
+                margin-left: 150px;
+                position: relative;
+
+                .rectangle-with-icon:first-of-type {
+                    width: 70px;
+                    height: 20px;
+                    border: .5px solid $yellowLine;
+                    position: relative;
+
+                    .image {
+                        margin: auto;
+                        position: relative;
+                        top: -15px;
+                    }
+
+
+
+                }
+
+                .rectangle-with-icon:last-of-type {
+                    width: 70px;
+                    height: 45px;
+                    position: relative;
+                    border-left: .5px solid $yellowLine;
+                    border-right: .5px solid $yellowLine;
+
+                    .image:first-of-type {
+                        margin: auto;
+                        position: relative;
+                        top: -10px;
+                    }
+
+                    .image:last-of-type {
+                        margin-left: 2px;
+                        position: relative;
+                        z-index: 2;
+                        left: 8px;
+
+                        img {
+                            transform: translate(-7px, 0);
+                        }
+                    }
+
+                }
+
+                h3 {
+                    position: absolute;
+                    bottom: 0;
+                    left: 85px;
+                }
+            }
+
+            .map-square {
+                width: 520px;
+                height: 262px;
+                border: .5px solid $yellowLine;
+                border-right: 0;
+                border-left: none;
+                position: relative;
+                z-index: 1;
+
+                // TOP BOX
+                .column.type-1 {
+                    position: absolute;
+                    top: -80px;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    .button-container {
+                        padding-right: 0;
+                    }
+                }
+
+                .connector.type-1 {
+                    position: absolute;
+                    top: -17px;
+                    left: 65px;
+
+                    .image {
+                        transform: rotate(180deg);
+                    }
+                }
+
+                i.las.la-long-arrow-alt-right:first-of-type {
+                    margin-left: 110px;
+                }
+
+
+                h3 {
+                    margin-top: 35px;
+                    margin-bottom: 45px;
+                    text-align: center;
+                }
+
+
+                // BOTTOM OF BOX 
+                .column.type-2 {
+                    position: absolute;
+                    bottom: 5px;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    .button-container {
+                        padding-right: 0;
+                    }
+                }
+
+                .connector.type-2 {
+                    position: absolute;
+                    bottom: -24px;
+                    left: 75px;
+
+                    .image {
+                        transform: rotate(180deg);
+                    }
+                }
+
+                .heading-group.type-1 {
+                    display: flex;
+                    position: absolute;
+                    bottom: 0;
+                    left: 190px;
+
+                    i {
+                        position: relative;
+                        bottom: -4px;
+                        left: -15px;
+                    }
+                }
+
+                .shape-line-right {
+                    position: absolute;
+                    background-color: #217029;
+                    width: 43px;
+                    height: calc(100% + 10px);
+                    left: auto;
+                    right: -35px;
+                    top: -0.5px;
+                    border: 0.5px solid #fdc616;
+                    border-left: 0;
+                    border-bottom: 0;
+
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        top: auto;
+                        left: 36px;
+                        right: 0;
+                        height: 12px;
+                        width: 12px;
+                        border-radius: 25px;
+                        background-color: #fdc616;
+                        border: 1px solid #0e0e0e;
+                        transform: translate(0, -50%);
+                        bottom: -18px;
+                    }
+
+                    .la-long-arrow-alt-down {
+                        position: absolute;
+                        bottom: 4px;
+                        left: 13px;
+                            
+                    }
+
+                    
+                }
+
+            }
+
+        }
+
+    }
+
+    .top-section {
+        display: flex;
+
+        .tbch {
+
+            margin-left: 40px;
+            margin-top: 65px;
+            position: relative;
+
+            .flex {
+                display: flex;
+            }
+
+            > .flex {
+
+                > .column.type-1 {
+                    margin-top: 77px;
+                    position: relative;
+                    left: 17px;
+                }
+
+                > .column.type-2 {
+                    margin-top: 77px;
+
+                    > .group {
+                        position: absolute;
+                        top: -36px;
+                        left: 33px;
+
+                        h4 {
+                            margin-bottom: 7px;
+                        }
+                    }
+                }
+            }
+
+            .bar {
+                height: 260px;
+                width: 5px;
+                position: relative;
+                background-color: #c8c26f;
+                z-index: 3;
+
+                span:first-of-type {
+                    width: 5px;
+                    height: 40px;
+                    background-color: #c8c26f;
+                    position: absolute;
+                    top: -40px;
+                    left: -15px;
+                }
+
+                img {
+                    width: 36px;
+                    position: absolute;
+                    top: -15px;
+                    left: -20px;
+                }
+
+                &::after {
+
+                    content: "";
+                    position: absolute;
+                    top: auto;
+                    left: -3px;
+                    right: 0;
+                    height: 12px;
+                    width: 12px;
+                    border-radius: 25px;
+                    background-color: #c8c26f;
+                    border: 1px solid #0e0e0e;
+                    transform: translate(0, -50%);
+                    bottom: -10px;
+
+                }
+
+                >.la-long-arrow-alt-down {
+                    position: absolute;
+                    left: -17px;
+                    bottom: 10px;
+                    transform: rotate(180deg);
+                }
+            }
+
+            .right-position {
+                >.retangle {
+                    margin-left: 30px;
+
+                    &.type-1 {
+                        width: 230px;
+                        height: 108px;
+                        border-left: 5px solid #9eb0a0;
+                        border-bottom: 5px solid #9eb0a0;
+                        position: relative;
+                        border-radius: 3px;
+
+                        &:after {
+                            content: '';
+                            position: absolute;
+                            width: 5px;
+                            height: 10px;
+                            background-color: $mainBackgroundColor;
+                            position: absolute;
+                            bottom: -5px;
+                            left: auto;
+                            right: 0;
+                        }
+
+                        >h4 {
+                            position: absolute;
+                            left: 12px;
+                            top: 40px;
+                        }
+
+                        >span:first-of-type {
+                            width: 5px;
+                            height: 40px;
+                            background-color: #9eb0a0;
+                            position: absolute;
+                            top: -40px;
+                            left: 15px;
+
+                            >h4 {
+                                position: absolute;
+                                left: 20px;
+                                top: 22px;
+                            }
+
+                            >i {
+                                position: absolute;
+                                left: -20px;
+                                top: 6px;
+                            }
+                        }
+
+                        img {
+                            width: 36px;
+                            position: absolute;
+                            top: -15px;
+                            left: -10px;
+                        }
+
+                    }
+
+                    &.type-2 {
+                        width: 230px;
+                        height: 90px;
+                        border-right: 5px solid #9eb0a0;
+                        border-bottom: 5px solid #9eb0a0;
+                        border-radius: 3px;
+                        position: relative;
+                        top: -5px;
+                        z-index: 4;
+
+                        >h4:first-of-type {
+                            position: absolute;
+                            bottom: -60px;
+                            left: 120px;
+                        }
+
+                        &:after {
+                            content: '';
+                            position: absolute;
+                            width: 14px;
+                            height: 10px;
+                            background-color: $mainBackgroundColor;
+                            position: absolute;
+                            bottom: -5px;
+                            left: -2px;
+                        }
+
+                        >.battery-container {
+
+                            .image {
+                                width: 70px;
+                            }
+
+                            .battery-shape {
+                                top: 0;
+                            }
+
+                            &:first-of-type {
+                                position: absolute;
+                                left: 85px;
+                                top: -15px;
+                                transform: rotate(90deg);
+
+                                >h4 {
+                                    position: absolute;
+                                    top: 40px;
+                                    transform: rotate(-90deg);
+                                }
+
+                                .battery-shape.battery-right {
+
+                                    >i {
+                                        position: absolute;
+                                        top: 34px;
+                                        left: 92px;
+                                        transform: rotate(90deg);
+                                    }
+
+                                }
+
+                            }
+
+                            &:last-of-type {
+                                position: absolute;
+                                left: 160px;
+                                top: -18px;
+                                transform: rotate(90deg);
+
+                                >h4:last-of-type {
+                                    position: absolute;
+                                    top: -124px;
+                                    left: auto;
+                                    right: -14px;
+                                    transform: rotate(-90deg);
+                                    line-height: 1.2;
+                                    font-size: .8rem;
+                                }
+
+                            }
+
+                        }
+
+                    }
+
+
+                    &.type-3 {
+                        width: 200px;
+                        height: 66px;
+                        margin-left: 42px;
+                        border-left: 5px solid #9eb0a0;
+                        position: relative;
+                        top: -5px;
+                        z-index: 3;
+
+                        .group-heading {
+                            position: absolute;
+                            bottom: 41px;
+                            left: 4px;
+                        }
+
+                        >.la-long-arrow-alt-down {
+                            position: absolute;
+                            bottom: 8px;
+                            left: -22px;
+                        }
+
+                        &::after {
+
+                            content: "";
+                            position: absolute;
+                            top: auto;
+                            left: -8px;
+                            right: 0;
+                            height: 12px;
+                            width: 12px;
+                            border-radius: 25px;
+                            background-color: #9eb0a0;
+                            border: 1px solid #0e0e0e;
+                            transform: translate(0, -50%);
+                            bottom: -10px;
+
+                        }
+                    }
+
+                }
+            }
+
+            .water-system {
+                width: 650px;
+                height: 300px;
+
+                .exp-tank {
+                    width: 200px;
+                    margin-left: auto;
+
+                    >.heading:first-of-type {
+                        position: absolute;
+                        top: -25px;
+                        left: auto;
+                        right: 10px;
+                    }
+
+                    >.heading:nth-of-type(2) {
+                        position: absolute;
+                        top: -25px;
+                        right: -10px;
+                    }
+
+                    >.heading:last-of-type {
+                        position: absolute;
+                        top: -25px;
+                        left: auto;
+                        right: 10px;
+                    }
+
+                    .rectangle {
+
+                        &.type-2 {
+                            width: 200px;
+                            height: 100px;
+                            margin-left: auto;
+                            border-top: .5px solid #18c1fa;
+                            border-left: .5px solid #18c1fa;
+                            position: relative;
+
+                            >.button-icon:first-of-type {
+                                position: absolute;
+                                left: -17px;
+                                bottom: -45px;
+                            }
+
+                            .heading-group {
+
+                                >.heading:first-of-type {
+                                    position: absolute;
+                                    left: -131px;
+                                    top: 0;
+                                }
+
+                            }
+
+                            .connector {
+                                position: absolute;
+                                top: -19px;
+                                left: 40px;
+                            }
+
+                            >h4:first-of-type {
+                                position: absolute;
+                                bottom: -60px;
+                                left: 25px;
+
+                                i {
+                                    color: $darkTextColor;
+                                    position: absolute;
+                                    left: -17px;
+                                    top: 17px;
+                                }
+                            }
+
+                         
+
+                            >i:nth-of-type(1) {
+                                position: absolute;
+                                left: 100px;
+                                top: -20px;
+                            }
+
+                            .exp-battery {
+                                position: absolute;
+                                top: -20px;
+                                left: -46px;
+
+
+                                .image.exp-icon {
+                                    position: relative;
+
+                                    >img {
+                                        width: 50px;
+                                        height: 50px;
+                                    }
+
+                                    .battery-status {
+                                        position: absolute;
+                                        top: 0px;
+                                        left: -17px;
+                                    }
+                                }
+
+
+                            }
+
+                            >.square {
+                                width: 0px;
+                                height: 0px;
+                                bottom: 0;
+                                left: 0;
+                                position: absolute;
+                                border-top: .5px solid #18c1fa;
+                                border-right: .5px solid #18c1fa;
+
+                                &:after {
+                                    content: "";
+                                    position: absolute;
+                                    width: 0.5px;
+                                    background-color: #18c1fa;
+                                    height: 100px;
+                                    bottom: -64px;
+                                    left: auto;
+                                    right: 0;
+                                }
+
+                            }
+
+                            &:before {
+                                content: '';
+                                position: absolute;
+                                width: 15px;
+                                height: 30px;
+                                top: -30px;
+                                left: -.5px;
+                                border-radius: 25px;
+                                border-bottom-left-radius: 0;
+                                border-top: .5px solid #18c1fa;
+                                border-left: .5px solid #18c1fa;
+                            }
+
+                            .button-group {
+                                position: absolute;
+                                left: auto;
+                                top: -25px;
+                                right: -85px;
+                            }
+                        }
+
+                    }
+
+                }
+
+                .rectangle {
+
+                    &.type-1 {
+                        width: 650px;
+                        height: 160px;
+
+                        border: none;
+                        border-radius: 3px;
+                        position: relative;
+                        left: -80px;
+
+                        >h2:first-of-type {
+                            position: absolute;
+                            top: -25px;
+                            left: 5px;
+                        }
+
+                        >h4:first-of-type {
+                            position: absolute;
+                            top: 25px;
+                            left: auto;
+                            right: -55px;
+                        }
+
+                        .group {
+                            position: absolute;
+                            left: auto;
+                            right: 90px;
+                            bottom: -65px;
+                            width: 100px;
+                            text-align: center;
+
+                            h3:first-of-type {
+                                position: relative;
+                                top: -30px;
+                                left: -20px;
+                            }
+
+                            h4 {
+                                margin-left: 20px;
+                            }
+
+                            .image.connector-button {
+                                position: absolute;
+                                left: auto;
+                                right: -87px;
+                                top: -7px;
+                            }
+
+
+
+                            h4:last-of-type {
+                                position: relative;
+                                top: 12px;
+                                left: -30px;
+                            }
+
+                            h3:last-of-type {
+
+                                position: absolute;
+                                top: -4px;
+                                left: auto;
+                                right: -160px;
+                                    
+                            }
+
+                        }
+
+                        >.image {
+                            position: absolute;
+                            bottom: -14px;
+                            left: 280px;
+                            background-color: $mainBackgroundColor;
+                        }
+
+                        .type-3 {
+                            height: 90px;
+                            width: 320px;
+                            border-top: 3px solid #2d91ff;
+                            border-bottom: 3px solid #2d91ff;
+                            position: absolute;
+                            top: 37px;
+                            left: 60px;
+                            z-index: -1;
+
+
+                            >h3:first-of-type {
+                                position: absolute;
+                                left: auto;
+                                left: 70px;
+                                top: -30px;
+                                text-align: right;
+                            }
+
+
+                            >i:first-of-type {
+                                position: absolute;
+                                left: 20px;
+                                top: -20px;
+                            }
+
+                            >i:nth-of-type(2) {
+                                position: absolute;
+                                left: 66px;
+                                top: 10px;
+                            }
+
+                            &:after {
+                                content: "";
+                                width: 200px;
+                                height: 60px;
+                                bottom: 0;
+                                left: auto;
+                                right: -150px;
+                                border-top: 0.5px solid #18c1fa;
+                                border-left: 0.5px solid #18c1fa;
+                                position: absolute;
+                            }
+
+                            &:before {
+                                content: "";
+                                width: 10px;
+                                height: 13px;
+                                top: 18px;
+                                left: auto;
+                                right: -74px;
+                                background-color: $mainBackgroundColor;
+                                position: absolute;
+                                z-index: 1;
+                            }
+
+                            .type-4 {
+                                width: 70px;
+                                height: 280px;
+                                position: absolute;
+                                left: auto;
+                                right: -70px;
+                                top: -3px;
+                                border-top: 3px solid #2d91ff;
+                                border-right: 3px solid #2d91ff;
+                                border-top-right-radius: 3px;
+                                z-index: 2;
+
+                                >i:first-of-type {
+                                    position: absolute;
+                                    left: auto;
+                                    right: 3px;
+                                    top: 35px;
+                                    transform: rotate(180deg);
+                                }
+
+                                >span:first-of-type {
+                                    position: absolute;
+                                    width: 20px;
+                                    height: 10px;
+                                    background-color: $mainBackgroundColor;
+                                    top: 111px;
+                                    left: auto;
+                                    right: -12px;
+                                    z-index: 1;
+
+                                }
+
+                                >span:last-of-type {
+                                    position: absolute;
+                                    width: 20px;
+                                    height: 10px;
+                                    background-color: $mainBackgroundColor;
+                                    top: 111px;
+                                    left: -8px;
+                                    z-index: 1;
+
+                                }
+
+                                &:after {
+                                    content: '';
+                                    top: 84px;
+                                    left: 0;
+                                    width: 3px;
+                                    height: 193px;
+                                    background-color: #2d91ff;
+                                    position: absolute;
+                                }
+
+                                > .image:first-of-type {
+                                    position: absolute;
+                                    left: auto;
+                                    right: -17px;
+                                    bottom: 105px;
+
+                                    img {
+                                        transform: translateY(6px);
+                                    }
+                                }
+
+                                >h4 {
+
+                                    position: absolute;
+                                    left: 10px;
+                                    bottom: 56px;
+
+                                }
+
+                                .rectangle.type-9 {
+                                    position: absolute;
+                                    width: 170px;
+                                    height: 120px;
+                                    left: 70px;
+                                    top: 90px;
+                                    border-top: 3px solid #2d91ff;
+                                    border-right: 3px solid #2d91ff;
+                                    border-bottom: 3px solid #2d91ff;
+
+
+
+                                    .has-icon-top {
+                                        position: absolute;
+                                        top: -11.5px;
+                                        left: 100px;
+                                    }
+                                    
+                                    .has-icon-bottom {
+                                        position: absolute;
+                                        bottom: -11.5px;
+                                        left: 100px;
+                                    }
+
+                                   
+                                }
+                            }
+
+                            .type-8 {
+                                position: absolute;
+                                width: 80px;
+                                height: 84px;
+                                left: 62px;                                
+                                border-left: .5px solid #18c1fa;
+
+                                .image {
+                                    position: absolute;
+                                    bottom: -16px;
+                                    left: -13px;
+
+
+                                    i {
+                                        position: absolute;
+                                        bottom: 13px;
+                                        left: 5px;
+
+                                    }
+                                }
+                            }
+                        }
+
+                        .type-5 {
+                            width: 150px;
+                            height: 40px;
+                            background-color: $mainBackgroundColor;
+                            position: absolute;
+                            bottom: -40px;
+                            left: 0;
+                            border-right: 3px solid #18c1fa;
+                            border-bottom: 3px solid #18c1fa;
+                            border-bottom-right-radius: 3px;
+                        }
+
+
+                        .type-6 {
+                            width: 70px;
+                            height: 90px;
+                            background-color: $mainBackgroundColor;
+                            position: absolute;
+                            bottom: -127px;
+                            left: -10px;
+                            border-right: 3px solid #18c1fa;
+                            border-bottom: 3px solid #18c1fa;
+                            border-bottom-right-radius: 3px;
+
+                            .group-heading {
+                                position: absolute;
+                                bottom: 25px;
+                                left: 80px;
+                                width: 100px;
+                            }
+
+                            >i {
+                                position: absolute;
+                                bottom: 5px;
+                                left: 10px;
+                            }
+
+                            &:after {
+                                content: "";
+                                position: absolute;
+                                top: auto;
+                                left: -8px;
+                                right: 0;
+                                height: 12px;
+                                width: 12px;
+                                border-radius: 25px;
+                                background-color: #18c1fa;
+                                border: 1px solid #0e0e0e;
+                                // transform: translate(0, -50%);
+                                bottom: -8px;
+                            }
+                        }
+
+
+                    }
+
+                }
+            }
+
+            .sea-water-system {
+                width: 350px;
+                position: absolute;
+                left: auto;
+                right: 0;
+                bottom: -40px;
+
+                .ltfw-cooler {
+
+                    width: 70px;
+                    height: 52px;
+                    border-top: 3px solid #2d91ff;
+                    border-right: 3px solid #2d91ff;
+                    border-left: 3px solid #2d91ff;
+                    position: relative;
+
+                    >i:first-of-type {
+                        position: absolute;
+                        top: -17px;
+                        left: 10px;
+                    }
+
+                    >i:nth-of-type(2) {
+                        position: absolute;
+                        left: -17px;
+                        top: 15px;
+                    }
+
+                    >.image:first-of-type {
+                        position: absolute;
+                        left: auto;
+                        right: -18px;
+                        top: -15px;
+
+                        img {
+                            transform: rotate(-90deg);
+                        }
+
+                        i {
+                            position: absolute;
+                            left: auto;
+                            right: 13px;
+                            top: 5px;
+                        }
+                    }
+
+
+                    .battery-container {
+                        position: absolute;
+                        bottom: -30px;
+                        left: -6px;
+
+                        > .image {
+                            width: 78px;
+                        }
+
+                        .battery-shape {
+                            top: 0;
+                            transform: rotate(180deg);
+
+                            &.battery-left {
+                                left: -15px;
+                            }
+
+                        }
+
+                        >span {
+                            width: 270px;
+                            height: 40px;
+                            position: absolute;
+                            bottom: -20px;
+                            right: -277px;
+                            left: auto;
+                            border-left: 3px solid #09fc07;
+                            border-bottom: 3px solid #09fc07;
+
+                            .image {
+                                position: absolute;
+                                left: 130px;
+                                top: 18px;
+                            }
+
+
+                            >h4:first-of-type {
+
+                                position: absolute;
+                                bottom: 0;
+
+                            }
+
+                            >h4:nth-of-type(2) {
+                                position: absolute;
+                                top: -13px;
+                                left: 123px;
+                                font-size: .93rem;
+                            }
+
+                            >h4:last-of-type {
+
+                                position: absolute;
+                                bottom: 0;
+                                left: 70px !important;
+
+                            }
+
+                            >i {
+                                position: absolute;
+                                bottom: 0;
+                                left: auto;
+                                right: 0;
+                            }
+
+                            &:after {
+                                content: '';
+                                position: absolute;
+                                width: 20px;
+                                height: 10px;
+                                background-color: $mainBackgroundColor;
+                                bottom: -7px;
+                                left: auto;
+                                right: 105px;
+                                z-index: -1;
+                            }
+                        }
+
+                    }
+
+                    >span:first-of-type {
+                        width: 220px;
+                        height: 74px;
+                        position: absolute;
+                        top: -2px;
+                        left: -36px;
+                        background-color: $mainBackgroundColor;
+                        z-index: -1;
+
+                        > .heading  {
+                            position: absolute;
+                            left: 39px;
+                            font-size: 0.8rem;
+                            bottom: 25px;
+                        }
+                    }
+
+                    >span:last-of-type {
+
+                        width: 365px;
+                        height: 150px;
+                        position: absolute;
+                        bottom: -100px;
+                        left: -13px;
+                        border: 3px solid #09fc07;
+                        border-top: none;
+                        border-right: none;
+                        border-radius: 3px;
+                        border-bottom-right-radius: 0;
+                        z-index: -2;
+                    }
+
+                    h4.heading {
+                        position: absolute;
+                        bottom: -95px;
+                        left: 0px;
+                        text-align: center;
+                        font-size: .75rem;
+                    }
+
+                    .heading-sub {
+                        font-size: .86rem !important;
+                        left: 10px !important;
+                    }
+
+                }
+
+                .htfw-cooler {
+                    position: absolute;
+                    top: -115px;
+                    left: auto;
+                    right: 80px;
+                    width: 70px;
+                    height: 52px;
+                    border-right: 3px solid #18c1fa;
+                    border-left: 3px solid #18c1fa;
+
+                    >i:first-of-type {
+                        position: absolute;
+                        top: 2px;
+                        left: 10px;
+                    }
+
+                    >i:nth-of-type(2) {
+                        position: absolute;
+                        left: auto;
+                        right: 0;
+                        top: 15px;
+                    }
+
+                    >h4:first-of-type {
+                        position: absolute;
+                        top: 25px;
+                        left: 2px !important;
+                    }
+
+                    .battery-container {
+                        position: absolute;
+                        bottom: -30px;
+                        left: -7px;
+
+                        .image {
+                            width: 78px;
+                        }
+
+                        .battery-shape {
+                            top: 0;
+                            transform: rotate(180deg);
+                        }
+
+                        .battery-shape.battery-left:after {
+                            content: '';
+                            position: absolute;
+                            width: 4px;
+                            height: 44px;
+                            background: #09fc07;
+                            top: -40px;
+                            left: 6px;
+                            border-radius: 25px;
+                            z-index: -1;
+                        }
+
+                        >span {
+                            width: 70px;
+                            height: 119px;
+                            position: absolute;
+                            bottom: -109px;
+                            right: -77px;
+                            left: auto;
+                            border-left: 3px solid #09fc07;
+                            border-bottom: 3px solid #09fc07;
+
+                            >h4 {
+
+                                position: absolute;
+                                top: 20px;
+                                left: 10px;
+
+                            }
+
+                            >i {
+                                position: absolute;
+                                bottom: 0;
+                                left: auto;
+                                right: 0;
+                            }
+                        }
+
+                    }
+
+                    h4.heading {
+                        position: absolute;
+                        bottom: -65px;
+                        left: 10px;
+                        text-align: center;
+                    }
+
+                }
+
+                .button-group {
+                    position: absolute;
+                    left: auto;
+                    right: -90px;
+                    top: 85px;
+                    z-index: 222;
+
+                    .heading:first-of-type {
+                        position: absolute;
+                        left: -100px;
+                        top: -17px;
+                    }
+
+                    >.flex-group {
+                        display: flex;
+                        position: absolute;
+                        bottom: 23px;
+                        left: -30px;
+
+                        i {
+                            position: absolute;
+                            left: -30px;
+                            top: -13px;
+                        }
+                    }
+                }
+
+            }
+        }
+
+    }
+
+    .central-power {
+        display: flex;
+        position: relative;
+        top: -35px;
+
+        .air-operations {
+
+            width: 515px;
+
+
+            .output-screen-item.type-1 {
+               
+                position: absolute;
+                bottom: 60px;
+                left: 60px;
+            }
+
+            .output-screen-item.type-2 {
+
+                position: absolute;
+                bottom: 60px;
+                left: 250px;
+            }
+
+
+            .water-pump {
+                width: 290px;
+                margin-left: auto;
+                height: 65px;
+                position: relative;
+                top: 37px;
+                margin-bottom: 27px;
+                left: 38px;
+                z-index: 3;
+
+                .connect-shape {
+                    position: absolute;
+                    width: 36px;
+                    height: 36px;
+                    background-color: #217029;
+                    border: 3px solid #0e0e0e;
+                    left: auto;
+                    top: 15px;
+                    left: 80px;
+
+                    &.connected {
+                        border: 3px solid #22e52a;
+
+                        span {
+                            background-color: #22e52a;
+                        }
+                    }
+
+                    span {
+
+                        height: 20px;
+                        width: 4px;
+                        background-color: #0e0e0e;
+                        position: absolute;
+
+                        &:first-of-type {
+
+                            left: 8px;
+                            top: 5px;
+
+                        }
+
+                        &:last-of-type {
+
+                            left: auto;
+                            right: 8px;
+                            top: 5px;
+
+                        }
+
+
+                    }
+
+                }
+
+                .rotate-3d {
+                    transform-style: preserve-3d;
+                    transform: rotateY(80deg);
+                    width: 100px;
+                    height: 100px;
+                    position: absolute;
+                    top: -117.5px;
+                    left: -50px;
+
+                    @keyframes spin {
+                        0% {
+                            transform: rotate(0deg) scale(.23);
+                        }
+
+                        100% {
+                            transform: rotate(360deg) scale(.23);
+                        }
+                    }
+
+                    >.spin {
+
+                        animation: spin 14ms linear infinite;
+                    }
+                }
+
+                .ceiling-container {
+                    width: 300px;
+                    height: 300px;
+                    border-radius: 50%;
+                    position: relative;
+                    display: inline-block;
+                    transform: rotate(0deg) scale(.23);
+
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        border-radius: 50%;
+                        width: 70px;
+                        height: 70px;
+                        margin-left: -35px;
+                        margin-top: -35px;
+                        // border: 8px solid #555;
+                        background: #444;
+                        // background: radial-gradient(#333, #555 100%);
+                        box-shadow: inset 0 0px 0px 8px #444444, inset 0 1px 5px 22px #383838;
+                    }
+                }
+
+                .ceiling-fan {
+                    display: block;
+                    background: #ccc;
+                    border-radius: 5px;
+                    position: absolute;
+                    box-shadow: inset 1px 1px 40px #555;
+
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        background: #666;
+                        display: block;
+                    }
+
+                    &.horizontal {
+                        width: auto;
+                        height: 50px;
+                        top: 50%;
+                        margin-top: -25px;
+                        transform: skewX(20deg);
+
+                        &:after {
+                            top: 25%;
+                            width: 15px;
+                            height: 50%;
+                        }
+                    }
+
+                    &.vertical {
+                        width: 50px;
+                        height: auto;
+                        left: 50%;
+                        margin-left: -25px;
+                        transform: skewY(20deg);
+
+                        &:after {
+                            height: 15px;
+                            width: 50%;
+                            margin-left: 25%;
+                        }
+                    }
+
+                    &.left {
+                        left: 0;
+                        right: 50%;
+                        margin-right: 45px;
+                        // border-radius: 14px 5px 5px 40px;
+                        border-radius: 50% 15px 15px 50%;
+
+                        &:after {
+                            left: 100%;
+                        }
+                    }
+
+                    &.right {
+                        right: 0;
+                        left: 50%;
+                        margin-left: 45px;
+                        // border-radius: 5px 40px 14px 5px;
+                        border-radius: 15px 50% 50% 15px;
+
+                        &:after {
+                            right: 100%;
+                        }
+                    }
+
+                    &.top {
+                        top: 0;
+                        bottom: 50%;
+                        margin-bottom: 45px;
+                        // border-radius: 40px 14px 5px 5px;
+                        border-radius: 50% 50% 15px 15px;
+
+                        &:after {
+                            top: 100%;
+                        }
+                    }
+
+                    &.bottom {
+                        top: 50%;
+                        bottom: 0;
+                        margin-top: 45px;
+                        // border-radius: 5px 5px 40px 14px;
+                        border-radius: 15px 15px 50% 50%;
+
+                        &:after {
+                            bottom: 100%;
+                        }
+                    }
+                }
+
+            }
+
+            .air-bar {
+                width: 554px;
+                z-index: 3;
+                height: 5px;
+                position: relative;
+                background-color: $greyTextColor;
+                top: 17px;
+
+                > .column {
+                    position: absolute;
+                    bottom: -40px;
+                }
+
+                &::after {
+
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    left: auto;
+                    right: 0;
+                    height: 12px;
+                    width: 12px;
+                    border-radius: 25px;
+                    background-color: $greyTextColor;
+                    border: 1px solid $darkTextColor;
+                    transform: translate(0, -50%);
+
+                }
+
+            }
+
+            .flex {
+                display: flex;
+                justify-content: space-between;
+
+                .column:nth-of-type(2) {
+                    margin-right: 100px;
+                }
+
+                .column:last-of-type {
+                    margin-right: 70px;
+                }
+
+            }
+
+        }
+
+        .lo-storage {
+
+            display: flex;
+            position: relative;
+            top: 10px;
+            left: 8px;
+            
+            .rectangle {
+                height: 60px;
+
+                &.type-1 {
+                    width: 340px;
+                    border-bottom: .5px solid $yellowLine;
+                    border-right: .5px solid $yellowLine;
+
+                    .heading {
+                        position: absolute;
+                        bottom: -45px;
+                    }
+
+                    .button-icon {
+                        position: absolute;
+                        bottom: -16px;
+                        left: 100px;
+                    }
+
+                    .la-long-arrow-alt-right {
+                        position: absolute;
+                        bottom: 0px;
+                        left: 160px;
+                    }
+                }
+
+                &.type-2 {
+                    width: 200px;
+                    border-top: .5px solid $yellowLine;
+                    flex-grow: 1;
+
+                    > .heading {
+                        margin-top: 30px;
+                        margin-left: 20px;
+                    }
+                }
+
+            }
+
+            .battery-status {
+                position: relative;
+                top: -6px;
+                left: 115px;
+                transform: rotate(-90deg);
+                z-index: 3;
+            }
+
+        }
+
+        .central {
+            width: 200px;
+            position: relative;
+            top: -45px;
+            left: -3px;
+
+            .central-image {
+                position: relative;
+                box-shadow: 0 3px 6px rgba(40, 40, 40, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+                padding: 18px;
+
+                img {
+                    position: sticky;
+                    z-index: 3;
+                }
+                &:after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 30px;
+                    background-color: #217029;
+                    bottom: 20px;
+                    left: 0;
+                }
+
+                .data-output {
+                    position: absolute;
+                    bottom: 37px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    padding-left: 15px;
+                    padding-right: 15px;
+
+                    .dark-color {
+                        color: #0e0e0e;
+                    }
+
+                }
+
+            }
+
+            .lines-container {
+
+                position: relative;
+                top: -65px;
+                left: 1px;
+                z-index: 1;
+
+                .flex {
+                    width: 530px;
+                    position: relative;
+                }
+
+                .rectangle {
+
+                    &.type-1 {
+                        width: 300px;
+                        height: 185px;
+                        border-bottom: .5px solid $yellowLine;
+                        position: relative;
+                        border-right: .5px solid $yellowLine;
+                        border-top: .5px solid $yellowLine;
+
+                        > h4 {
+                            position: absolute;
+                            left: auto;
+                            right: -10px;
+                            top: -74px;
+                            text-align: center;
+                        }
+
+                        > .image {
+
+                            position: absolute;
+                            left: auto;
+                            right: 20px;
+                            top: -24px;
+
+                        }
+
+                        >i.la-long-arrow-alt-left:first-of-type {
+                            position: absolute;
+                            top: -21px;
+                            left: auto;
+                            right: 65px;
+                        }
+
+                        &:after {
+                            content: "";
+                            position: absolute;
+                            top: auto;
+                            left: auto;
+                            right: 111px;
+                            height: 12px;
+                            width: 12px;
+                            border-radius: 25px;
+                            background-color: $yellowLine;
+                            border: 1px solid #0e0e0e;
+                            transform: translate(0, -50%);
+                            top: -1px;
+                            z-index: 2;
+                        }
+
+                        .type-3 {
+                            width: 270px;
+                            height: 155px;
+                            position: absolute;
+                            border-left: .5px solid $yellowLine;
+                            border-right: none;
+                            border-top: none;
+                            bottom: 0;
+
+
+                            .heading-group {
+                                position: absolute;
+                                bottom: 0;
+                                left: auto;
+                                right: 0;
+
+                                .heading {
+
+                                    &:first-of-type {
+                                        position: relative;
+                                        left: -20px;
+                                    }
+
+                                    &:nth-of-type(2) {
+                                        position: absolute;
+                                        bottom: -30px;
+                                        left: -20px;
+                                    }
+
+                                   
+
+                                }
+                            }
+
+
+                            >h4 {
+                                position: absolute;
+                                bottom: 55px;
+                                left: 73px;
+                            }
+
+                            .type-4 {
+                                width: 235px;
+                                height: 56px;
+                                position: absolute;
+                                top: 0px;
+                                border-bottom: 0.5px solid #fdc616;
+                                border-right: 0.5px solid #fdc616;
+                                border-top: 0.5px solid #fdc616;
+                                text-align: right;
+
+                                .la-long-arrow-alt-down {
+                                    padding-top: 4px;
+                                }
+
+                                &:after {
+                                    content: "";
+                                    background-color: #217029;
+                                    top: auto;
+                                    left: -10px;
+                                    width: 20px;
+                                    height: 55px;
+                                    position: absolute;
+                                    bottom: 0.55px;
+                                    border-top: .5px solid #fdc616;
+                                }
+
+                            }
+
+                            .type-5 {
+                                width: 60px;
+                                height: 40px;
+                                position: absolute;
+                                top: auto;
+                                bottom: 0;
+                                left: 80px;
+                                border: .5px solid $yellowLine;
+                                border-bottom: 0;
+
+                                .image:first-of-type {
+                                    width: 54px;
+                                    height: 54px;
+                                    position: relative;
+                                    bottom: -15px;
+                                    left: -2px;
+
+                                    left: 2px;
+
+                                    img {
+                                        transform: translate(-6px, 0);
+                                    }
+
+                                }
+
+                                .image:nth-of-type(2) {
+                                    position: absolute;
+                                    top: -16px;
+                                    left: 18px;
+                                    width: 22px;
+                                    height: 22px;
+                                }
+
+                                .image:nth-of-type(3) {
+                                    position: absolute;
+                                    top: auto;
+                                    bottom: -11px;
+                                    left: auto;
+                                    right: -42px;
+                                    width: 22px;
+                                    height: 22px;
+                                }
+
+                                .image:nth-of-type(4) {
+                                    position: absolute;
+                                    top: auto;
+                                    bottom: -11px;
+                                    left: -42px;
+                                    width: 22px;
+                                    height: 22px;
+                                }
+
+                            }
+
+                        }
+
+
+                    }
+
+                    &.type-2 {
+                        width: 350px;
+                        height: 100px;
+                        border-right: .5px solid $yellowLine;
+                        position: relative;
+
+
+                        >.heading:first-of-type {
+                            position: absolute;
+                            left: auto;
+                            right: -69px;
+                            bottom: 5px;
+                        }
+
+                        >.button-icon {
+                            position: absolute;
+                            left: auto;
+                            right: -19px;
+                            top: 30%;
+                        }
+
+                        >.la-long-arrow-alt-down {
+                            position: absolute;
+                            left: auto;
+                            right: 5px;
+                            top: 80%;
+                        }
+
+                        .button-container-d {
+                            position: absolute;
+                            left: auto;
+                            right: 5px;
+                            bottom: 0;
+                            right: -95px;
+                            bottom: -40px;
+
+                            .flex {
+                                display: flex;
+                                align-items: center;
+                                width: 120px;
+
+                                h4 {
+                                    margin-left: -23px;
+                                }
+
+                            }
+                        }
+
+
+
+                    }
+
+                    &.type-6 {
+                        position: absolute;
+                        width: 230px;
+                        height: 260px;
+                        border-bottom: .5px solid $yellowLine;
+                        border-right: .5px solid $yellowLine;
+                        left: auto;
+                        right: 0;
+                        top: auto;
+                        bottom: 0;
+
+                        >.heading:first-of-type {
+                            position: absolute;
+                            left: auto;
+                            right: 8px;
+                            top: 70px;
+                        }
+
+                        >.la-long-arrow-alt-right {
+                            position: absolute;
+                            bottom: 0;
+                            left: 80px;
+                        }
+
+                        &:after {
+                            content: '';
+                            background-color: $mainBackgroundColor;
+                            top: auto;
+                            bottom: 0;
+                            left: -20px;
+                            width: 20px;
+                            height: 70px;
+                            position: absolute;
+                        }
+
+                        .type-7 {
+                            width: 170px;
+                            height: 190px;
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            border-bottom: .5px solid $yellowLine;
+                            border-right: .5px solid $yellowLine;
+
+                            >h4:first-of-type {
+                                position: absolute;
+                                top: 50%;
+                                left: 10px;
+                            }
+
+                            .connector-block-rectangle {
+                                padding-top: 13px;
+                                padding-right: 20px;
+                                display: flex;
+                                flex-direction: column;
+                                position: absolute;
+                                left: auto;
+                                align-items: center;
+                                right: 0;
+                                bottom: 0px;
+                                border-top: 0.5px solid #fdc616;
+                                border-left: 0.5px solid #fdc616;
+                                
+
+                                .image {
+                                    margin-bottom: 6px;
+                                    position: relative;
+                                    left: -18px;
+                                }
+
+                                .image:nth-of-type(2) {
+                                    margin-top: 12px;
+                                    margin-bottom: 24px;
+                                }
+                            }
+
+                            .connector-block {
+                                display: flex;
+                                flex-direction: column;
+                                position: absolute;
+                                left: auto;
+                                align-items: center;
+                                right: -30px;
+                                bottom: 4px;
+
+                                .image {
+                                    margin-bottom: 6px;
+                                }
+
+                                .image:nth-of-type(2) {
+                                    margin-top: 12px;
+                                }
+                            }
+
+                            .group-heading {
+                                position: absolute;
+                                bottom: -28px;
+                                left: 15px;
+                            }
+
+                        }
+
+                        .type-8 {
+                            width: 60px;
+                            height: 40px;
+                            position: absolute;
+                            top: -30px;
+                            left: auto;
+                            right: 0;
+                            border-bottom: .5px solid $yellowLine;
+                            border-right: .5px solid $yellowLine;
+                            border-left: .5px solid $yellowLine;
+
+                            
+
+                            >h4 {
+                                position: absolute;
+                                left: 6px;
+                                top: -64px;
+                            }
+
+                            >.image {
+                                position: absolute;
+                                bottom: -14px;
+                                left: -16px;
+
+
+                                i {
+                                    position: absolute;
+                                    left: auto;
+                                    right: -5px;
+                                    top: 5px;
+                                }
+
+                            }
+
+                            .battery-container {
+                                position: relative;
+                                top: -28px;
+                                left: -5px;
+
+                                .image {
+                                    width: 70px;
+                                }
+
+                                .battery-shape.battery-left:after {
+                                    content: "";
+                                    position: absolute;
+                                    top: -155px;
+                                    left: 7px;
+                                    height: 152px;
+                                    width: 1px;
+                                    background-color: #2d91ff;
+
+                                }
+
+                                .battery-shape.battery-left:before {
+                                    content: "";
+                                    position: absolute;
+                                    top: -75px;
+                                    left: 2px;
+                                    height: 10px;
+                                    width: 10px;
+                                    background-color: $mainBackgroundColor;
+                                }
+
+                                .battery-shape.battery-right:after {
+                                    content: "";
+                                    position: absolute;
+                                    top: -10px;
+                                    left: 7px;
+                                    height: 20px;
+                                    width: 71px;                                   
+                                    border-left: .5px solid #2d91ff;
+                                    border-top: .5px solid #2d91ff;
+                                    z-index: -1;
+
+                                }
+                            }
+                        }
+
+                    }
+
+                }
+
+            }
+
+
+
+        }
+
+
+    }
+
+
+}
